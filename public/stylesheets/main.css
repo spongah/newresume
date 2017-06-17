@@ -4,7 +4,8 @@
 }
 
 .pic {
-  background-image: 'me.jpg',
-  border: 1px solid black,
+  border: 1px solid black;
+  border-radius: 100%;
   width: 100px;
+  height: 100px;
 }
