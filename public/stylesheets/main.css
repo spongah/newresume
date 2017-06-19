@@ -21,6 +21,7 @@ select::-ms-expand {
   border: 1px solid black;
   padding-left: 2vw;
   padding-right: 10vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .all {
@@ -39,7 +40,7 @@ select::-ms-expand {
 
 .mainpanel {
   background: white;
-  box-shadow: 4px 4px 2px #CECECE;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header {
@@ -52,6 +53,7 @@ select::-ms-expand {
 
 .maininfo {
   float: left;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.15)
 }
 
 .name {
@@ -74,6 +76,8 @@ select::-ms-expand {
 .socialicon {
   width: 2em;
   margin: 0 1vw 0 1vw;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pic {
@@ -82,6 +86,7 @@ select::-ms-expand {
   width: 100px;
   height: 100px;
   margin-left: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .mainpanel {
