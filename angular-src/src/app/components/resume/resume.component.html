@@ -1,0 +1,29 @@
+<div class="all">
+  <div class="header">
+    <div class="maininfo">
+      <div class="name">Eric Eschelbach</div>
+      <div class="title">Full Stack Web Developer</div>
+      <div class="links">
+        <a href="tel:801-313-0394">801-313-0394</a> · <a href="mailto:ericeschelbach@gmail.com">ericeschelbach@gmail.com</a>
+      </div>
+    </div>
+    <div class="contactlinks">
+      <img src="/assets/github.png" class="socialicon">
+      <img src="/assets/linkedin.png" class="socialicon">
+      <img src="/assets/facebook.png" class="socialicon">
+    </div>
+  </div>
+  <div class="picandselect">
+    <img src="/assets/me.jpg" class="pic">
+    <!-- <div class="mainselect" (click)="changePage($event)">Qualifications</div>  -->
+    <span (click)="changePage($event)" class="mainselect">
+      Qualifications
+    </span>
+  </div>
+
+  <div class="mainpanel">
+    <div class="maincontainer">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
