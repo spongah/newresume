@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-resume',
@@ -6,15 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements OnInit {
+  currentDisplay: any;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+    this.currentDisplay = 'Qualifications';
   }
 
-  changePage(e) {
-    console.log('changing page modal!');
-    e.stopPropagation();
+  goToSkills() {
+    this.router.navigate(['/skills']);
   }
 
 }
