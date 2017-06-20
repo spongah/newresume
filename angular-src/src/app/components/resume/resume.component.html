@@ -16,9 +16,17 @@
   <div class="picandselect">
     <img src="/assets/me.jpg" class="pic">
     <!-- <div class="mainselect" (click)="changePage($event)">Qualifications</div>  -->
-    <span (click)="changePage($event)" class="mainselect">
+    <span class="mainselect" data-toggle="modal" data-target=".pages-modal">
       Qualifications
     </span>
+  </div>
+
+  <div class="modal fade pages-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        blablabla!
+      </div>
+    </div>
   </div>
 
   <div class="mainpanel">
