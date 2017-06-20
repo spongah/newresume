@@ -80,7 +80,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".qualifications {\n  padding-right: 10px;\n  margin-left: -10px;\n}\n", ""]);
 
 // exports
 
@@ -116,7 +116,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".skills {\n  font-size: 0.85em;\n  padding-left: 3vw;\n}\n\n@media (max-width: 640px) {\n  .skills {\n    padding-left: 0;\n  }\n}\n\n@media (min-width: 1200px) {\n  .skills {\n    padding-left: 5vw;\n  }\n}\n", ""]);
+exports.push([module.i, ".skills {\n  font-size: 0.95em;\n  padding-left: 3vw;\n}\n\n@media (max-width: 640px) {\n  .skills {\n    padding-left: 0;\n  }\n}\n\n@media (min-width: 1200px) {\n  .skills {\n    padding-left: 5vw;\n  }\n}\n", ""]);
 
 // exports
 
@@ -157,7 +157,7 @@ module.exports = "<p>\n  portfolio works!\n</p>\n"
 /***/ 164:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<ul>\n  <li>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology.</li>\n  <br>\n  <li>Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly.</li>\n  <br>\n  <li>Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly.</li>\n  <br>\n  <li>Superb communication, planning, and team building skills.</li>\n</ul>\n"
+module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<div class=\"qualifications\">\n  <ul>\n    <li>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology.</li>\n    <br>\n    <li>Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly.</li>\n    <br>\n    <li>Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly.</li>\n    <br>\n    <li>Superb communication, planning, and team building skills.</li>\n  </ul>\n</div>\n"
 
 /***/ }),
 
