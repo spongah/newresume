@@ -12,11 +12,5 @@ export class ResumeComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    this.currentDisplay = 'Qualifications';
   }
-
-  goToSkills() {
-    this.router.navigate(['/skills']);
-  }
-
 }
