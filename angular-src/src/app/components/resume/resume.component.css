@@ -21,7 +21,7 @@ select::-ms-expand {
   border-radius: 4px;
   padding: 8px 10vw 8px 2vw;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 4px 14px 0 rgba(0, 0, 0, 0.14);
-  cursor: default;
+  cursor: pointer;
 }
 
 .all {
