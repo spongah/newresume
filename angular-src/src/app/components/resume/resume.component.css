@@ -30,6 +30,9 @@ select::-ms-expand {
   min-width: 340px;
   min-height: 480px;
   padding: 0vh 2vw 0vh 2vw;
+}
+
+.all, .modal-content {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e0e0e0+100 */
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%); /* FF3.6-15 */
@@ -121,7 +124,29 @@ select::-ms-expand {
   min-height: 320px;
   margin: -50px 10px 10px 10px;
   padding: 60px 15px 15px 15px
+}
 
+.modal-content {
+  margin-top: 25vh;
+  border-radius: 45px;
+  padding: 25px 10px 25px 10px;
+}
+
+.modalbutton {
+  font-size: 1.2em;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 12px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modalbutton:hover {
+  background-color: #E0E0E0;
 }
 
 @media (max-width: 320px) {
@@ -151,6 +176,12 @@ select::-ms-expand {
     margin-left: 4vw;
   }
 
+}
+
+@media (min-width: 768px) {
+  .modalbutton {
+    width: 250px;
+  }
 }
 
 @media (min-width: 880px) {
