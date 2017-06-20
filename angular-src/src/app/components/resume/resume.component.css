@@ -65,13 +65,18 @@ select::-ms-expand {
   margin: 10px 0 -5px 17px;
 }
 
+.name, .pic {
+  cursor: pointer;
+}
+
+.name:focus, .pic:focus {
+  outline: 0;
+}
+
 .title {
   font-size: 1em;
   font-weight: 200;
   margin: 0 0 0 18px;
-}
-
-.title, .name {
   cursor: default;
 }
 
