@@ -191,13 +191,15 @@ select::-ms-expand {
 
 }
 
-@media (min-width: 768px) {
-  .modalcontent {
+@media (max-width: 768px) {
+  .modal-content {
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
   }
+}
 
+@media (min-width: 768px) {
   .modalbutton {
     width: 250px;
   }
