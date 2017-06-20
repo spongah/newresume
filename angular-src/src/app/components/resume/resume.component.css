@@ -145,6 +145,11 @@ select::-ms-expand {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
+.picandselect {
+  position: relative;
+  z-index: 2;
+}
+
 .pic {
   border: 1px solid black;
   border-radius: 100%;
@@ -157,10 +162,13 @@ select::-ms-expand {
 .mainpanel {
   border: 1px solid black;
   border-radius: 30px;
-  height: 75vh;
+  /* height: 75vh; */
   min-height: 320px;
+  height: 75%;
   margin: -50px 10px 10px 10px;
-  padding: 60px 15px 15px 15px
+  padding: 60px 15px 15px 15px;
+  overflow-y: auto;
+  z-index: 1;
 }
 
 .modal-content {

@@ -12,6 +12,7 @@ export class QualificationsComponent implements OnInit {
 
   ngOnInit() {
     this.resume.currentDisplay = 'Qualifications';
+    this.resume.allHeight = '98vh';
   }
 
 }

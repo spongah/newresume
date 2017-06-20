@@ -1,0 +1,16 @@
+.skills {
+  font-size: 0.85em;
+  padding-left: 3vw;
+}
+
+@media (max-width: 640px) {
+  .skills {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skills {
+    padding-left: 5vw;
+  }
+}

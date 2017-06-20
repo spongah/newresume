@@ -12,6 +12,7 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit() {
     this.resume.currentDisplay = 'Portfolio';
+    this.resume.allHeight = '100%';
   }
 
 }

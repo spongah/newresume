@@ -26,7 +26,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".education-table {\n  font-size: 0.85em;\n}\n", ""]);
 
 // exports
 
@@ -44,7 +44,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".employment-table {\n  font-size: 0.85em;\n}\n", ""]);
 
 // exports
 
@@ -98,7 +98,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "select {\n  /*for firefox*/\n  -moz-appearance: none;\n  /*for chrome*/\n  -webkit-appearance:none;\n}\n\n/*for IE10*/\nselect::-ms-expand {\n    display: none;\n}\n\n.mainselect {\n  background-image: url(/assets/downarrow.png);\n  background-repeat: no-repeat;\n  background-position: 96% 50%;\n  background-size: 1em;\n  margin-left: 2vw;\n  background-color: white;\n  border: 1px solid black;\n  border-radius: 4px;\n  padding: 8px 10vw 8px 2vw;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 4px 14px 0 rgba(0, 0, 0, 0.14);\n  cursor: pointer;\n}\n\n.all {\n  width: 100vw;\n  height: 98vh;\n  min-width: 340px;\n  min-height: 480px;\n  padding: 0vh 2vw 0vh 2vw;\n}\n\n.all, .modal-content {\n  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e0e0e0+100 */\n  background: #ffffff; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */\n  background: linear-gradient(to bottom, #ffffff 0%,#e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */\n}\n\n.mainpanel {\n  background: white;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.header {\n  height: 10vh;\n  min-height: 85px;\n  min-width: 340px;\n  /* border: 1px solid green; */\n  margin-top: 2vh;\n}\n\n.maininfo {\n  float: left;\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.name {\n  font-size: 1.7em;\n  font-weight: 500;\n  margin: 10px 0 -5px 17px;\n}\n\n.name, .pic {\n  cursor: pointer;\n}\n\n.name:focus, .pic:focus {\n  outline: 0;\n}\n\n.title {\n  font-size: 1em;\n  font-weight: 200;\n  margin: 0 0 0 18px;\n  cursor: default;\n}\n\n.title, .contactlinks, .picandselect {\n  -webkit-touch-callout: none; /* iOS Safari */\n    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n       -moz-user-select: none; /* Firefox */\n        -ms-user-select: none; /* Internet Explorer/Edge */\n            user-select: none; /* Non-prefixed version, currently\n                                  supported by Chrome and Opera */\n}\n\n.links {\n  font-size: 0.65em;\n  padding-left: 18px;\n  text-shadow: none;\n  text-decoration:none;\n}\n\n.links:hover {\n  text-decoration:none;\n}\n\n.contactlinks {\n  padding-top: 7vh;\n  margin-left: 63vw;\n}\n\n/* .socialicon {\n  width: 2em;\n  margin: 0 1vw 0 1vw;\n  border-radius: 100%;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n} */\n\n.iconfont {\n  font-size: 13px;\n  color: #616161;\n  border: 2.2px solid #616161;\n  border-radius: 100%;\n  margin: 0 1vw 0 1vw;\n  padding: 0.5em;\n\n}\n\n.github {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.linkedin {\n  padding-left: 0.6em;\n  padding-right: 0.55em;\n}\n\n.facebook {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.iconfont:hover {\n  color: #000000;\n  border: 2.2px solid #000000;\n  text-decoration:none;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n}\n\n.pic {\n  border: 1px solid black;\n  border-radius: 100%;\n  width: 100px;\n  height: 100px;\n  margin-left: 40px;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.mainpanel {\n  border: 1px solid black;\n  border-radius: 30px;\n  height: 75vh;\n  min-height: 320px;\n  margin: -50px 10px 10px 10px;\n  padding: 60px 15px 15px 15px\n}\n\n.modal-content {\n  margin-top: 25vh;\n  border-radius: 45px;\n  padding: 25px 10px 25px 10px;\n}\n\n.modalbutton {\n  font-size: 1.2em;\n  color: #333;\n  height: 50px;\n  border: 1px solid black;\n  border-radius: 10px;\n  text-align: center;\n  padding-top: 12px;\n  margin-bottom: 5px;\n  cursor: pointer;\n  background-color: white;\n  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.active {\n  border: #d2d2d2 inset 2px;\n  box-shadow: none;\n}\n\n.modalbutton:hover, .modalbutton:focus {\n  background-color: #E0E0E0;\n  outline: 0;\n}\n\n.modal-link:hover {\n  text-decoration: none;\n  color: #333;\n}\n\n@media (max-width: 320px) {\n\n  .contactlinks {\n    margin-left: 55vw;\n  }\n\n  .socialicon {\n    padding-top: 4px;\n  }\n}\n\n@media (min-width: 480px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 46vw;\n  }\n\n  .mainselect {\n    margin-left: 4vw;\n  }\n\n}\n\n@media (max-width: 768px) {\n  .modal-content {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n\n@media (min-width: 768px) {\n  .modalbutton {\n    width: 250px;\n  }\n}\n\n@media (min-width: 880px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 50vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 32vw;\n  }\n\n  .mainselect {\n    margin-left: 6vw;\n  }\n\n  .iconfont {\n    font-size: 17px;\n  }\n}\n\n@media (min-width: 1200px) {\n  @media (min-height: 1000px) {\n\n    .name {\n      font-size: 2.2em;\n    }\n\n    .title {\n      font-size: 1.3em;\n    }\n\n    .pic {\n      margin-left: 60px;\n    }\n\n    .mainpanel {\n      padding: 60px 30px 30px 30px\n    }\n\n    .socialicon {\n      width: 2.5em;\n      margin: 0 1vw 0 1vw;\n    }\n\n    .mainselect {\n      font-size: 1.2em;\n    }\n  }\n}\n\n@media (min-width: 1600px) {\n\n  .mainselect {\n    margin-left: 8vw;\n  }\n\n}\n", ""]);
+exports.push([module.i, "select {\n  /*for firefox*/\n  -moz-appearance: none;\n  /*for chrome*/\n  -webkit-appearance:none;\n}\n\n/*for IE10*/\nselect::-ms-expand {\n    display: none;\n}\n\n.mainselect {\n  background-image: url(/assets/downarrow.png);\n  background-repeat: no-repeat;\n  background-position: 96% 50%;\n  background-size: 1em;\n  margin-left: 2vw;\n  background-color: white;\n  border: 1px solid black;\n  border-radius: 4px;\n  padding: 8px 10vw 8px 2vw;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 4px 14px 0 rgba(0, 0, 0, 0.14);\n  cursor: pointer;\n}\n\n.all {\n  width: 100vw;\n  height: 98vh;\n  min-width: 340px;\n  min-height: 480px;\n  padding: 0vh 2vw 0vh 2vw;\n}\n\n.all, .modal-content {\n  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e0e0e0+100 */\n  background: #ffffff; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */\n  background: linear-gradient(to bottom, #ffffff 0%,#e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */\n}\n\n.mainpanel {\n  background: white;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.header {\n  height: 10vh;\n  min-height: 85px;\n  min-width: 340px;\n  /* border: 1px solid green; */\n  margin-top: 2vh;\n}\n\n.maininfo {\n  float: left;\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.name {\n  font-size: 1.7em;\n  font-weight: 500;\n  margin: 10px 0 -5px 17px;\n}\n\n.name, .pic {\n  cursor: pointer;\n}\n\n.name:focus, .pic:focus {\n  outline: 0;\n}\n\n.title {\n  font-size: 1em;\n  font-weight: 200;\n  margin: 0 0 0 18px;\n  cursor: default;\n}\n\n.title, .contactlinks, .picandselect {\n  -webkit-touch-callout: none; /* iOS Safari */\n    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n       -moz-user-select: none; /* Firefox */\n        -ms-user-select: none; /* Internet Explorer/Edge */\n            user-select: none; /* Non-prefixed version, currently\n                                  supported by Chrome and Opera */\n}\n\n.links {\n  font-size: 0.65em;\n  padding-left: 18px;\n  text-shadow: none;\n  text-decoration:none;\n}\n\n.links:hover {\n  text-decoration:none;\n}\n\n.contactlinks {\n  padding-top: 7vh;\n  margin-left: 63vw;\n}\n\n/* .socialicon {\n  width: 2em;\n  margin: 0 1vw 0 1vw;\n  border-radius: 100%;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n} */\n\n.iconfont {\n  font-size: 13px;\n  color: #616161;\n  border: 2.2px solid #616161;\n  border-radius: 100%;\n  margin: 0 1vw 0 1vw;\n  padding: 0.5em;\n\n}\n\n.github {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.linkedin {\n  padding-left: 0.6em;\n  padding-right: 0.55em;\n}\n\n.facebook {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.iconfont:hover {\n  color: #000000;\n  border: 2.2px solid #000000;\n  text-decoration:none;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n}\n\n.picandselect {\n  position: relative;\n  z-index: 2;\n}\n\n.pic {\n  border: 1px solid black;\n  border-radius: 100%;\n  width: 100px;\n  height: 100px;\n  margin-left: 40px;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.mainpanel {\n  border: 1px solid black;\n  border-radius: 30px;\n  /* height: 75vh; */\n  min-height: 320px;\n  height: 75%;\n  margin: -50px 10px 10px 10px;\n  padding: 60px 15px 15px 15px;\n  overflow-y: auto;\n  z-index: 1;\n}\n\n.modal-content {\n  margin-top: 25vh;\n  border-radius: 45px;\n  padding: 25px 10px 25px 10px;\n}\n\n.modalbutton {\n  font-size: 1.2em;\n  color: #333;\n  height: 50px;\n  border: 1px solid black;\n  border-radius: 10px;\n  text-align: center;\n  padding-top: 12px;\n  margin-bottom: 5px;\n  cursor: pointer;\n  background-color: white;\n  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.active {\n  border: #d2d2d2 inset 2px;\n  box-shadow: none;\n}\n\n.modalbutton:hover, .modalbutton:focus {\n  background-color: #E0E0E0;\n  outline: 0;\n}\n\n.modal-link:hover {\n  text-decoration: none;\n  color: #333;\n}\n\n@media (max-width: 320px) {\n\n  .contactlinks {\n    margin-left: 55vw;\n  }\n\n  .socialicon {\n    padding-top: 4px;\n  }\n}\n\n@media (min-width: 480px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 46vw;\n  }\n\n  .mainselect {\n    margin-left: 4vw;\n  }\n\n}\n\n@media (max-width: 768px) {\n  .modal-content {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n\n@media (min-width: 768px) {\n  .modalbutton {\n    width: 250px;\n  }\n}\n\n@media (min-width: 880px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 50vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 32vw;\n  }\n\n  .mainselect {\n    margin-left: 6vw;\n  }\n\n  .iconfont {\n    font-size: 17px;\n  }\n}\n\n@media (min-width: 1200px) {\n  @media (min-height: 1000px) {\n\n    .name {\n      font-size: 2.2em;\n    }\n\n    .title {\n      font-size: 1.3em;\n    }\n\n    .pic {\n      margin-left: 60px;\n    }\n\n    .mainpanel {\n      padding: 60px 30px 30px 30px\n    }\n\n    .socialicon {\n      width: 2.5em;\n      margin: 0 1vw 0 1vw;\n    }\n\n    .mainselect {\n      font-size: 1.2em;\n    }\n  }\n}\n\n@media (min-width: 1600px) {\n\n  .mainselect {\n    margin-left: 8vw;\n  }\n\n}\n", ""]);
 
 // exports
 
@@ -116,7 +116,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".skills {\n  font-size: 0.85em;\n  padding-left: 3vw;\n}\n\n@media (max-width: 640px) {\n  .skills {\n    padding-left: 0;\n  }\n}\n\n@media (min-width: 1200px) {\n  .skills {\n    padding-left: 5vw;\n  }\n}\n", ""]);
 
 // exports
 
@@ -136,14 +136,14 @@ module.exports = "<app-resume></app-resume>\n"
 /***/ 161:
 /***/ (function(module, exports) {
 
-module.exports = "Education\n\nSalt Lake Community College, West Valley UT, CCNA Classes\t\t\t2002 - 2003\nHonoka’a High School, Honoka’a HI, 3.5 GPA, National Honor Society\t\t1995 - 1999\n"
+module.exports = "<h4 class=\"text-center\">Education History</h4>\n<br>\n<table class=\"education-table table table-responsive table-striped\">\n  <thead>\n    <tr>\n      <th>School</th>\n      <th>Location</th>\n      <th>Notes</th>\n      <th>Dates</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let history of educationHistory\">\n      <td>\n        {{ history.school }}\n      </td>\n      <td>\n        {{ history.location }}\n      </td>\n      <td>\n        {{ history.notes }}\n      </td>\n      <td>\n        {{ history.startdate }} - {{ history.enddate }}\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
 
 /***/ }),
 
 /***/ 162:
 /***/ (function(module, exports) {
 
-module.exports = "Professional Employment History\n\nPlansource, Salt Lake City UT, EDI Analyst\t\t\t\t\t2016 - 2017\nThe Royal, Murray UT, Audio Engineer\t\t\t\t\t\t2013 - 2017\nRock Solid Studios, Salt Lake City UT, Owner / Engineer\t\t\t\t2005 - 2016\nRock Solid Sound, Salt Lake City UT, Owner / Engineer\t\t\t\t2008 - 2017\nFeature Films For Families, Murray UT, Helpdesk / Software QA\t\t2005 - 2008\n"
+module.exports = "<h4 class=\"text-center\">Professional Employment History</h4>\n<br>\n<table class=\"employment-table table table-responsive table-striped\">\n  <thead>\n    <tr>\n      <th>Employer</th>\n      <th>Location</th>\n      <th>Title</th>\n      <th>Dates</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let history of employmentHistory\">\n      <td>\n        {{ history.company }}\n      </td>\n      <td>\n        {{ history.location }}\n      </td>\n      <td>\n        {{ history.position }}\n      </td>\n      <td>\n        {{ history.startdate }} - {{ history.enddate }}\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
 
 /***/ }),
 
@@ -157,7 +157,7 @@ module.exports = "<p>\n  portfolio works!\n</p>\n"
 /***/ 164:
 /***/ (function(module, exports) {
 
-module.exports = "<p>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology. Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly. Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly. Superb communication, planning, and team building skills. Currently seeking a front-end or full-stack web developer position, utilizing the following transferrable skills and experience:</p>\n"
+module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<ul>\n  <li>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology.</li>\n  <br>\n  <li>Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly.</li>\n  <br>\n  <li>Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly.</li>\n  <br>\n  <li>Superb communication, planning, and team building skills.</li>\n</ul>\n"
 
 /***/ }),
 
@@ -171,7 +171,7 @@ module.exports = "<div class=\"all\">\n  <div class=\"header\">\n    <div class=
 /***/ 166:
 /***/ (function(module, exports) {
 
-module.exports = "<table>\n  <tr>\n    <td>\n      <ul>\n        <li>AngularJS/Angular</li>\n        <li>Node.js / Express</li>\n        <li>Ruby on Rails</li>\n        <li>JavaScript ES6</li>\n        <li>TypeScript 2.0+</li>\n        <li>HTML5, CSS3, jQuery</li>\n        <li>LAMP, MEAN Stacks</li>\n        <li>MongoDB, PostgreSQL, MySQL, SQLite</li>\n      </ul>\n    </td>\n    <td>\n      <ul>\n        <li>RESTful API’s</li>\n        <li>Python, PHP, Assembly</li>\n        <li>Object Oriented Programming</li>\n        <li>Test Driven Design</li>\n        <li>Source Version Control (GitHub, Heroku)</li>\n        <li>vim, bash, ssh</li>\n        <li>UX/UI Design</li>\n      </ul>\n    </td>\n    <td>\n      <ul>\n        <li>Problem solving</li>\n        <li>Strong work ethic</li>\n        <li>Passion for technology</li>\n        <li>Teamwork and communication</li>\n        <li>Project Management</li>\n        <li>Strong focus and determination</li>\n        <li>Well-rounded</li>\n      </ul>\n    </td>\n  </tr>\n</table>\n"
+module.exports = "<h4 class=\"text-center\">Skills and Experience:</h4>\n<br>\n<div class=\"skills\">\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills1\">{{ skill.name }}</li>\n  </div>\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills2\">{{ skill.name }}</li>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -384,9 +384,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var EducationComponent = (function () {
     function EducationComponent(resume) {
         this.resume = resume;
+        this.educationHistory = [
+            {
+                school: 'Salt Lake Community College',
+                location: 'West Valley, UT',
+                notes: 'CCNA Classes',
+                startdate: '2002',
+                enddate: '2003'
+            },
+            {
+                school: 'Honoka\'a High School',
+                location: 'Honoka\'a, HI',
+                notes: '3.5 GPA, National Honor Society',
+                startdate: '1995',
+                enddate: '1999'
+            }
+        ];
     }
     EducationComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Education';
+        this.resume.allHeight = '98vh';
     };
     return EducationComponent;
 }());
@@ -425,9 +442,47 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var EmploymentComponent = (function () {
     function EmploymentComponent(resume) {
         this.resume = resume;
+        this.employmentHistory = [
+            {
+                company: 'Plansource',
+                location: 'Salt Lake City, UT',
+                position: 'EDI Analyst',
+                startdate: '2016',
+                enddate: '2017'
+            },
+            {
+                company: 'The Royal',
+                location: 'Murray, UT',
+                position: 'Audio Engineer',
+                startdate: '2013',
+                enddate: '2017'
+            },
+            {
+                company: 'Rock Solid Studios',
+                location: 'Salt Lake City, UT',
+                position: 'Owner / Engineer',
+                startdate: '2005',
+                enddate: '2016'
+            },
+            {
+                company: 'Rock Solid Sound',
+                location: 'Salt Lake City, UT',
+                position: 'Owner / Engineer',
+                startdate: '2008',
+                enddate: '2017'
+            },
+            {
+                company: 'Feature Films For Families',
+                location: 'Murray, UT',
+                position: 'Helpdesk / Software QA',
+                startdate: '2005',
+                enddate: '2008'
+            }
+        ];
     }
     EmploymentComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Employment';
+        this.resume.allHeight = '90vh';
     };
     return EmploymentComponent;
 }());
@@ -469,6 +524,7 @@ var PortfolioComponent = (function () {
     }
     PortfolioComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Portfolio';
+        this.resume.allHeight = '100%';
     };
     return PortfolioComponent;
 }());
@@ -510,6 +566,7 @@ var QualificationsComponent = (function () {
     }
     QualificationsComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Qualifications';
+        this.resume.allHeight = '98vh';
     };
     return QualificationsComponent;
 }());
@@ -548,6 +605,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var SkillsComponent = (function () {
     function SkillsComponent(resume) {
         this.resume = resume;
+        this.skillsHeight = '100%';
+        this.skills1 = [
+            { name: 'AngularJS/Angular' },
+            { name: 'Node.js / Express' },
+            { name: 'Ruby on Rails' },
+            { name: 'JavaScript ES6' },
+            { name: 'TypeScript 2.0+' },
+            { name: 'HTML5, CSS3, jQuery' },
+            { name: 'LAMP, MEAN Stacks' },
+            { name: 'MongoDB, PostgreSQL, MySQL, SQLite' },
+            { name: 'RESTful API’s' },
+            { name: 'Python, PHP, Assembly' },
+            { name: 'Object Oriented Programming' }
+        ];
+        this.skills2 = [
+            { name: 'Test Driven Design' },
+            { name: 'Source Version Control (GitHub, Heroku)' },
+            { name: 'vim, bash, ssh' },
+            { name: 'UX/UI Design' },
+            { name: 'Problem solving' },
+            { name: 'Strong work ethic' },
+            { name: 'Passion for technology' },
+            { name: 'Teamwork and communication' },
+            { name: 'Project Management' },
+            { name: 'Strong focus and determination' },
+            { name: 'Well-rounded' }
+        ];
     }
     SkillsComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Skills';

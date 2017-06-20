@@ -1,4 +1,28 @@
-Education
-
-Salt Lake Community College, West Valley UT, CCNA Classes			2002 - 2003
-Honoka’a High School, Honoka’a HI, 3.5 GPA, National Honor Society		1995 - 1999
+<h4 class="text-center">Education History</h4>
+<br>
+<table class="education-table table table-responsive table-striped">
+  <thead>
+    <tr>
+      <th>School</th>
+      <th>Location</th>
+      <th>Notes</th>
+      <th>Dates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let history of educationHistory">
+      <td>
+        {{ history.school }}
+      </td>
+      <td>
+        {{ history.location }}
+      </td>
+      <td>
+        {{ history.notes }}
+      </td>
+      <td>
+        {{ history.startdate }} - {{ history.enddate }}
+      </td>
+    </tr>
+  </tbody>
+</table>

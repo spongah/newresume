@@ -8,9 +8,11 @@ import { Router } from '@angular/router';
 })
 export class ResumeComponent implements OnInit {
   currentDisplay: any;
+  allHeight: any;
 
   constructor(private router: Router) { }
 
   ngOnInit() {
+    
   }
 }

@@ -1,7 +1,28 @@
-Professional Employment History
-
-Plansource, Salt Lake City UT, EDI Analyst					2016 - 2017
-The Royal, Murray UT, Audio Engineer						2013 - 2017
-Rock Solid Studios, Salt Lake City UT, Owner / Engineer				2005 - 2016
-Rock Solid Sound, Salt Lake City UT, Owner / Engineer				2008 - 2017
-Feature Films For Families, Murray UT, Helpdesk / Software QA		2005 - 2008
+<h4 class="text-center">Professional Employment History</h4>
+<br>
+<table class="employment-table table table-responsive table-striped">
+  <thead>
+    <tr>
+      <th>Employer</th>
+      <th>Location</th>
+      <th>Title</th>
+      <th>Dates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let history of employmentHistory">
+      <td>
+        {{ history.company }}
+      </td>
+      <td>
+        {{ history.location }}
+      </td>
+      <td>
+        {{ history.position }}
+      </td>
+      <td>
+        {{ history.startdate }} - {{ history.enddate }}
+      </td>
+    </tr>
+  </tbody>
+</table>
