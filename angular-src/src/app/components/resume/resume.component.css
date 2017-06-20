@@ -101,10 +101,42 @@ select::-ms-expand {
   margin-left: 63vw;
 }
 
-.socialicon {
+/* .socialicon {
   width: 2em;
   margin: 0 1vw 0 1vw;
   border-radius: 100%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.iconfont {
+  font-size: 13px;
+  color: #616161;
+  border: 2.2px solid #616161;
+  border-radius: 100%;
+  margin: 0 1vw 0 1vw;
+  padding: 0.5em;
+
+}
+
+.github {
+  padding-right: 0.57em;
+  padding-left: 0.53em;
+}
+
+.linkedin {
+  padding-left: 0.6em;
+  padding-right: 0.55em;
+}
+
+.facebook {
+  padding-right: 0.57em;
+  padding-left: 0.53em;
+}
+
+.iconfont:hover {
+  color: #000000;
+  border: 2.2px solid #000000;
+  text-decoration:none;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -221,6 +253,9 @@ select::-ms-expand {
     margin-left: 6vw;
   }
 
+  .iconfont {
+    font-size: 17px;
+  }
 }
 
 @media (min-width: 1200px) {
