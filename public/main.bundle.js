@@ -150,7 +150,7 @@ module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is
 /***/ 163:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n<br>\n"
 
 /***/ }),
 
