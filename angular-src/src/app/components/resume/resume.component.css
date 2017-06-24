@@ -219,7 +219,7 @@ select::-ms-expand {
 
 @media (max-device-width: 480px) {
   .all {
-    min-height: 700px;
+    min-height: 680px;
     min-width: 415px;
   }
 
