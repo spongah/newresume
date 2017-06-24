@@ -26,7 +26,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".employment-table {\n  font-size: 0.85em;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n", ""]);
+exports.push([module.i, ".employment-table {\n  font-size: 0.85em;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n  cursor: pointer;\n  padding: 0px 20px 0px 20px;\n}\n", ""]);
 
 // exports
 
@@ -44,7 +44,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n\n@media (min-width: 1200px) {\n  .intro {\n    padding: 20px 20px 20px 20px\n  }\n}\n", ""]);
+exports.push([module.i, ".bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n  cursor: pointer;\n  padding: 0px 20px 0px 20px;\n}\n\n@media (min-width: 1200px) {\n  .intro {\n    padding: 20px 20px 20px 20px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -62,7 +62,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".bottomnav {\n  text-align: center;\n  width: 100%;\n  margin-bottom: 30px;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n\n.thumbnail {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #f9f9f9;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.thumbnail .caption {\n    padding: 9px;\n    padding-top: 0px;\n    padding-bottom: 0px;\n    margin-top: -10px;\n    color: #333;\n}\n\n.thumbnail:hover {\n  border-color: #808080;\n}\n\na {\n  text-decoration: none;\n}\n", ""]);
+exports.push([module.i, ".bottomnav {\n  text-align: center;\n  width: 100%;\n  margin-bottom: 30px;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n  cursor: pointer;\n  padding: 0px 20px 0px 20px;\n}\n\n.thumbnail {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #f9f9f9;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.thumbnail .caption {\n    padding: 9px;\n    padding-top: 0px;\n    padding-bottom: 0px;\n    margin-top: -10px;\n    color: #333;\n}\n\n.thumbnail:hover {\n  border-color: #808080;\n}\n\na {\n  text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -80,7 +80,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".qualifications {\n  padding-right: 10px;\n  margin-left: -10px;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n", ""]);
+exports.push([module.i, ".qualifications {\n  padding-right: 10px;\n  margin-left: -10px;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n  cursor: pointer;\n  padding: 0px 20px 0px 20px;\n}\n", ""]);
 
 // exports
 
@@ -116,7 +116,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".skills {\n  font-size: 0.95em;\n  padding-left: 30px;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n\n@media (max-width: 640px) {\n  .skills {\n    padding-left: 0;\n  }\n}\n", ""]);
+exports.push([module.i, ".skills {\n  font-size: 0.95em;\n  padding-left: 30px;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n  cursor: pointer;\n  padding: 0px 20px 0px 20px;\n}\n\n@media (max-width: 640px) {\n  .skills {\n    padding-left: 0;\n  }\n}\n", ""]);
 
 // exports
 
