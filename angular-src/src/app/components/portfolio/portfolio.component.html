@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-lg-6" *ngFor="let site of portfolioSites">
+  <div class="col-sm-6" *ngFor="let site of portfolioSites">
     <a href="{{ site.link }}">
       <div class="thumbnail">
         <img src="/assets/{{ site.img }}" alt="{{ site.name }}">
@@ -10,4 +10,8 @@
       </div>
     </a>
   </div>
+</div>
+<div class="bottomnav">
+  <img routerLink="/employment" src="assets/prev.png" class="bottomicon">
+  <img src="assets/next-disabled.png" class="bottomicon">
 </div>

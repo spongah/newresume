@@ -41,12 +41,6 @@ select::-ms-expand {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
 }
 
-.mainpanel {
-  background: white;
-  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-  max-height: 600px;
-}
-
 .header {
   height: 10vh;
   min-height: 85px;
@@ -163,6 +157,9 @@ select::-ms-expand {
 }
 
 .mainpanel {
+  background: white;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  /* max-height: 600px; */
   border: 1px solid black;
   border-radius: 30px;
   /* height: 75vh; */
