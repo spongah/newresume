@@ -219,8 +219,12 @@ select::-ms-expand {
 
 @media (max-device-width: 480px) {
   .all {
-    min-height: 725px;
+    min-height: 700px;
     min-width: 415px;
+  }
+
+  .mainpanel {
+    font-size: 0.9em;
   }
 }
 
