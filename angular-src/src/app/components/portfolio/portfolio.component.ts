@@ -29,7 +29,7 @@ export class PortfolioComponent implements OnInit {
     {
       img: 'portfolio-rta3.jpg',
       name: 'RTA3 - Real Time Analyzer',
-      link: 'https://rta2.herokuapp.com',
+      link: 'https://rta3.herokuapp.com',
       description: "Audio tool using FFT to analyze mic input and display frequency information in real time. Audio engineers will use this to cut frequencies which cause feedback in a particular venue."
     },
     {
