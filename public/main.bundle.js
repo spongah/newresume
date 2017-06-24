@@ -62,7 +62,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n", ""]);
+exports.push([module.i, ".bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n\n.thumbnail {\n  margin-left: 10px;\n  margin-right: 10px;\n  background-color: #f9f9f9;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.thumbnail .caption {\n    padding: 9px;\n    padding-top: 0px;\n    padding-bottom: 0px;\n    margin-top: -10px;\n    color: #333;\n}\n\n.thumbnail:hover {\n  border-color: #808080;\n}\n\na {\n  text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -150,7 +150,7 @@ module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is
 /***/ 163:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Portfolio</h4>\n<div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-lg-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -503,6 +503,62 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var PortfolioComponent = (function () {
     function PortfolioComponent(resume) {
         this.resume = resume;
+        this.portfolioSites = [
+            {
+                img: 'portfolio-hireasoundguy.jpg',
+                name: 'Hire A Sound Guy . COM',
+                link: '/portfolio',
+                description: "My flagship web app, currently in development. Will connect audio engineers with venues who need their services. Node.js, Express, MongoDB, and Angular 4 front-end."
+            },
+            {
+                img: 'portfolio-markco.jpg',
+                name: 'Markco Beta',
+                link: 'https://markco1.herokuapp.com',
+                description: "GPS tracker for groups using Google maps and GPS API's. Complete, functioning minimum viable product completed. Rails back end, and vanilla javascript up front (this was before I learned Angular)."
+            },
+            {
+                img: 'portfolio-chakra.jpg',
+                name: 'Chakra Tuner',
+                link: 'https://soundtools.herokuapp.com',
+                description: "Audio tool designed for musicians who want to tune their instruments to something other than 440 A tuning (usually 432hz). This was my first experience with Angular."
+            },
+            {
+                img: 'portfolio-rta3.jpg',
+                name: 'RTA3 - Real Time Analyzer',
+                link: 'https://rta2.herokuapp.com',
+                description: "Audio tool using FFT to analyze mic input and display frequency information in real time. Audio engineers will use this to cut frequencies which cause feedback in a particular venue."
+            },
+            {
+                img: 'portfolio-rocksolidsound.jpg',
+                name: 'Rock Solid Sound',
+                link: 'https://www.rocksolidsound.net',
+                description: "Website I created by manipulating a template for my own live-sound business."
+            },
+            {
+                img: 'portfolio-honeypot.jpg',
+                name: 'Honeypot Glass Competition',
+                link: 'http://honeypotglasscomp.com',
+                description: "Website I created for a client who mostly needed an online form for competition entry submissions and sponsorship applications."
+            },
+            {
+                img: 'portfolio-mudcraft.jpg',
+                name: 'Mudcraft',
+                link: 'https://mudkraft.herokuapp.com',
+                description: "Experimental adopotion of a classic text-based MUD into the web browser environment. I made this to try out React, but mostly used vanilla javascript to interact with a Rails back end."
+            },
+            {
+                img: 'portfolio-freqtrainer.jpg',
+                name: 'Frequency Trainer',
+                link: 'https://freqtrainer.herokuapp.com',
+                description: "Audio tool that plays a tone and asks the user to guess the frequency. Helps audio engineers train for feedback during shows."
+            },
+            {
+                img: 'portfolio-garden.jpg',
+                name: 'Garden Automator',
+                link: 'https://localhost:666',
+                description: "I build this app to track temperature and humidity data while giving remote access to relays and any other physical hardware via a Raspberry Pi server. Apache web server and Python back end code. Data is currently stored in a CSV but I want to move to a MySQL database eventually."
+            },
+        ];
     }
     PortfolioComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Portfolio';

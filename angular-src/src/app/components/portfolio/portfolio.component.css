@@ -9,3 +9,26 @@
   height: 25px;
   margin: 15px 40px 0px 40px;
 }
+
+.thumbnail {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thumbnail .caption {
+    padding: 9px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -10px;
+    color: #333;
+}
+
+.thumbnail:hover {
+  border-color: #808080;
+}
+
+a {
+  text-decoration: none;
+}
