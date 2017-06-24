@@ -1,3 +1,15 @@
 .employment-table {
   font-size: 0.85em;
 }
+
+.bottomnav {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.bottomicon {
+  height: 25px;
+  margin: 15px 40px 0px 40px;
+}

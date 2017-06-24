@@ -28,7 +28,6 @@ export class EducationComponent implements OnInit {
 
   ngOnInit() {
     this.resume.currentDisplay = 'Education';
-    this.resume.allHeight = '98vh';
   }
 
 }

@@ -9,7 +9,7 @@ import { ResumeComponent } from '../resume/resume.component';
 export class SkillsComponent implements OnInit {
   skillsHeight: String = '100%';
   skills1: Object = [
-    { name: 'AngularJS/Angular' },
+    { name: 'AngularJS / Angular' },
     { name: 'Node.js / Express' },
     { name: 'Ruby on Rails' },
     { name: 'JavaScript ES6' },
@@ -23,7 +23,7 @@ export class SkillsComponent implements OnInit {
   ];
   skills2: Object = [
     { name: 'Test Driven Design' },
-    { name: 'Source Version Control (GitHub, Heroku)' },
+    { name: 'Version Control (GitHub, Heroku)' },
     { name: 'vim, bash, ssh' },
     { name: 'UX/UI Design' },
     { name: 'Problem solving' },

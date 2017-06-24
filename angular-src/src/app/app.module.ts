@@ -9,16 +9,16 @@ import { ResumeComponent } from './components/resume/resume.component';
 import { QualificationsComponent } from './components/qualifications/qualifications.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { EmploymentComponent } from './components/employment/employment.component';
-import { EducationComponent } from './components/education/education.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 const appRoutes: Routes = [
+  { path: 'introduction', component: IntroComponent },
   { path: 'qualifications', component: QualificationsComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'employment', component: EmploymentComponent },
-  { path: 'education', component: EducationComponent },
   { path: 'portfolio', component: PortfolioComponent },
-  { path: '**', redirectTo: '/qualifications' }
+  { path: '**', redirectTo: '/introduction' }
 
 ];
 
@@ -29,8 +29,8 @@ const appRoutes: Routes = [
     QualificationsComponent,
     SkillsComponent,
     EmploymentComponent,
-    EducationComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,

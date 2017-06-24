@@ -26,7 +26,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".education-table {\n  font-size: 0.85em;\n}\n", ""]);
+exports.push([module.i, ".employment-table {\n  font-size: 0.85em;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n", ""]);
 
 // exports
 
@@ -44,7 +44,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".employment-table {\n  font-size: 0.85em;\n}\n", ""]);
+exports.push([module.i, ".bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n\n@media (min-width: 1200px) {\n  .intro {\n    padding: 20px 20px 20px 20px\n  }\n}\n", ""]);
 
 // exports
 
@@ -62,7 +62,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n", ""]);
 
 // exports
 
@@ -80,7 +80,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".qualifications {\n  padding-right: 10px;\n  margin-left: -10px;\n}\n", ""]);
+exports.push([module.i, ".qualifications {\n  padding-right: 10px;\n  margin-left: -10px;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n", ""]);
 
 // exports
 
@@ -98,7 +98,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "select {\n  /*for firefox*/\n  -moz-appearance: none;\n  /*for chrome*/\n  -webkit-appearance:none;\n}\n\n/*for IE10*/\nselect::-ms-expand {\n    display: none;\n}\n\n.mainselect {\n  background-image: url(/assets/downarrow.png);\n  background-repeat: no-repeat;\n  background-position: 96% 50%;\n  background-size: 1em;\n  margin-left: 2vw;\n  background-color: white;\n  border: 1px solid black;\n  border-radius: 4px;\n  padding: 8px 10vw 8px 2vw;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 4px 14px 0 rgba(0, 0, 0, 0.14);\n  cursor: pointer;\n}\n\n.all {\n  width: 100vw;\n  height: 98vh;\n  min-width: 340px;\n  min-height: 480px;\n  padding: 0vh 2vw 0vh 2vw;\n}\n\n.all, .modal-content {\n  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e0e0e0+100 */\n  background: #ffffff; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */\n  background: linear-gradient(to bottom, #ffffff 0%,#e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */\n}\n\n.mainpanel {\n  background: white;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.header {\n  height: 10vh;\n  min-height: 85px;\n  min-width: 340px;\n  /* border: 1px solid green; */\n  margin-top: 2vh;\n}\n\n.maininfo {\n  float: left;\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.name {\n  font-size: 1.7em;\n  font-weight: 500;\n  margin: 10px 0 -5px 17px;\n}\n\n.name, .pic {\n  cursor: pointer;\n}\n\n.name:focus, .pic:focus {\n  outline: 0;\n}\n\n.title {\n  font-size: 1em;\n  font-weight: 200;\n  margin: 0 0 0 18px;\n  cursor: default;\n}\n\n.title, .contactlinks, .picandselect {\n  -webkit-touch-callout: none; /* iOS Safari */\n    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n       -moz-user-select: none; /* Firefox */\n        -ms-user-select: none; /* Internet Explorer/Edge */\n            user-select: none; /* Non-prefixed version, currently\n                                  supported by Chrome and Opera */\n}\n\n.links {\n  font-size: 0.65em;\n  padding-left: 18px;\n  text-shadow: none;\n  text-decoration:none;\n}\n\n.links:hover {\n  text-decoration:none;\n}\n\n.contactlinks {\n  padding-top: 7vh;\n  margin-left: 63vw;\n}\n\n/* .socialicon {\n  width: 2em;\n  margin: 0 1vw 0 1vw;\n  border-radius: 100%;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n} */\n\n.iconfont {\n  font-size: 13px;\n  color: #616161;\n  border: 2.2px solid #616161;\n  border-radius: 100%;\n  margin: 0 1vw 0 1vw;\n  padding: 0.5em;\n\n}\n\n.github {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.linkedin {\n  padding-left: 0.6em;\n  padding-right: 0.55em;\n}\n\n.facebook {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.iconfont:hover {\n  color: #000000;\n  border: 2.2px solid #000000;\n  text-decoration:none;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n}\n\n.picandselect {\n  position: relative;\n  z-index: 2;\n}\n\n.pic {\n  border: 1px solid black;\n  border-radius: 100%;\n  width: 100px;\n  height: 100px;\n  margin-left: 40px;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.mainpanel {\n  border: 1px solid black;\n  border-radius: 30px;\n  /* height: 75vh; */\n  min-height: 320px;\n  height: 75%;\n  margin: -50px 10px 10px 10px;\n  padding: 60px 15px 15px 15px;\n  overflow-y: auto;\n  z-index: 1;\n}\n\n.modal-content {\n  margin-top: 25vh;\n  border-radius: 45px;\n  padding: 25px 10px 25px 10px;\n}\n\n.modalbutton {\n  font-size: 1.2em;\n  color: #333;\n  height: 50px;\n  border: 1px solid black;\n  border-radius: 10px;\n  text-align: center;\n  padding-top: 12px;\n  margin-bottom: 5px;\n  cursor: pointer;\n  background-color: white;\n  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.active {\n  border: #d2d2d2 inset 2px;\n  box-shadow: none;\n}\n\n.modalbutton:hover, .modalbutton:focus {\n  background-color: #E0E0E0;\n  outline: 0;\n}\n\n.modal-link:hover {\n  text-decoration: none;\n  color: #333;\n}\n\n@media (max-width: 320px) {\n\n  .contactlinks {\n    margin-left: 55vw;\n  }\n\n  .socialicon {\n    padding-top: 4px;\n  }\n}\n\n@media (min-width: 480px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 46vw;\n  }\n\n  .mainselect {\n    margin-left: 4vw;\n  }\n\n}\n\n@media (max-width: 768px) {\n  .modal-content {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n\n@media (min-width: 768px) {\n  .modalbutton {\n    width: 250px;\n  }\n}\n\n@media (min-width: 880px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 50vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 32vw;\n  }\n\n  .mainselect {\n    margin-left: 6vw;\n  }\n\n  .iconfont {\n    font-size: 17px;\n  }\n}\n\n@media (min-width: 1200px) {\n  @media (min-height: 1000px) {\n\n    .name {\n      font-size: 2.2em;\n    }\n\n    .title {\n      font-size: 1.3em;\n    }\n\n    .pic {\n      margin-left: 60px;\n    }\n\n    .mainpanel {\n      padding: 60px 30px 30px 30px\n    }\n\n    .socialicon {\n      width: 2.5em;\n      margin: 0 1vw 0 1vw;\n    }\n\n    .mainselect {\n      font-size: 1.2em;\n    }\n  }\n}\n\n@media (min-width: 1600px) {\n\n  .mainselect {\n    margin-left: 8vw;\n  }\n\n}\n", ""]);
+exports.push([module.i, "select {\n  /*for firefox*/\n  -moz-appearance: none;\n  /*for chrome*/\n  -webkit-appearance:none;\n}\n\n/*for IE10*/\nselect::-ms-expand {\n    display: none;\n}\n\n.mainselect {\n  background-image: url(/assets/downarrow.png);\n  background-repeat: no-repeat;\n  background-position: 96% 50%;\n  background-size: 1em;\n  margin-left: 2vw;\n  background-color: white;\n  border: 1px solid black;\n  border-radius: 4px;\n  padding: 8px 10vw 8px 2vw;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 4px 14px 0 rgba(0, 0, 0, 0.14);\n  cursor: pointer;\n}\n\n.all {\n  width: 100vw;\n  height: 98vh;\n  min-width: 525px;\n  min-height: 780px;\n  padding: 0vh 2vw 0vh 2vw;\n}\n\n.all, .modal-content {\n  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e0e0e0+100 */\n  background: #ffffff; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */\n  background: linear-gradient(to bottom, #ffffff 0%,#e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */\n}\n\n.mainpanel {\n  background: white;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n  max-height: 600px;\n}\n\n.header {\n  height: 10vh;\n  min-height: 85px;\n  min-width: 340px;\n  /* border: 1px solid green; */\n  margin-top: 2vh;\n  max-width: 768px;\n}\n\n.maininfo {\n  float: left;\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.name {\n  font-size: 1.7em;\n  font-weight: 500;\n  margin: 10px 0 -5px 17px;\n}\n\n.name, .pic {\n  cursor: pointer;\n}\n\n.name:focus, .pic:focus {\n  outline: 0;\n}\n\n.title {\n  font-size: 1em;\n  font-weight: 200;\n  margin: 0 0 0 18px;\n  cursor: default;\n}\n\n.title, .contactlinks, .picandselect {\n  -webkit-touch-callout: none; /* iOS Safari */\n    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n       -moz-user-select: none; /* Firefox */\n        -ms-user-select: none; /* Internet Explorer/Edge */\n            user-select: none; /* Non-prefixed version, currently\n                                  supported by Chrome and Opera */\n}\n\n.links {\n  font-size: 0.65em;\n  padding-left: 18px;\n  text-shadow: none;\n  text-decoration:none;\n}\n\n.links:hover {\n  text-decoration:none;\n}\n\n.contactlinks {\n  padding-top: 70px;\n  margin-left: 63vw;\n}\n\n/* .socialicon {\n  width: 2em;\n  margin: 0 1vw 0 1vw;\n  border-radius: 100%;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n} */\n\n.iconfont {\n  font-size: 13px;\n  color: #616161;\n  border: 2.2px solid #616161;\n  border-radius: 100%;\n  margin: 0 1vw 0 1vw;\n  padding: 0.5em;\n\n}\n\n.github {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.linkedin {\n  padding-left: 0.6em;\n  padding-right: 0.55em;\n}\n\n.facebook {\n  padding-right: 0.57em;\n  padding-left: 0.53em;\n}\n\n.iconfont:hover {\n  color: #000000;\n  border: 2.2px solid #000000;\n  text-decoration:none;\n  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);\n}\n\n.picandselect {\n  position: relative;\n  z-index: 2;\n  max-width: 768px;\n}\n\n.pic {\n  border: 1px solid black;\n  border-radius: 100%;\n  width: 100px;\n  height: 100px;\n  margin-left: 40px;\n  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);\n}\n\n.mainpanel {\n  border: 1px solid black;\n  border-radius: 30px;\n  /* height: 75vh; */\n  min-height: 320px;\n  height: 75%;\n  margin: -50px 10px 10px 10px;\n  padding: 60px 15px 15px 15px;\n  overflow-y: auto;\n  z-index: 1;\n  max-width: 768px;\n}\n\n.maincontainer {\n  height: 98%;\n  position: relative;\n}\n\n.modal-content {\n  margin-top: 25vh;\n  border-radius: 45px;\n  padding: 25px 10px 25px 10px;\n}\n\n.modalbutton {\n  font-size: 1.2em;\n  color: #333;\n  height: 50px;\n  border: 1px solid black;\n  border-radius: 10px;\n  text-align: center;\n  padding-top: 12px;\n  margin-bottom: 5px;\n  cursor: pointer;\n  background-color: white;\n  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);\n  text-shadow: 2px 2px 3px rgba(0,0,0,0.17);\n}\n\n.active {\n  border: #d2d2d2 inset 2px;\n  box-shadow: none;\n  background-color: #f5f5f5;\n}\n\n.modalbutton:hover, .modalbutton:focus {\n  background-color: #E0E0E0;\n  outline: 0;\n}\n\n.modal-link:hover {\n  text-decoration: none;\n  color: #333;\n}\n\n@media (max-device-width: 480px) {\n  .all {\n    min-height: 725px;\n    min-width: 415px;\n  }\n}\n\n@media (max-width: 320px) {\n\n  .contactlinks {\n    margin-left: 55vw;\n  }\n\n  .socialicon {\n    padding-top: 4px;\n  }\n}\n\n@media (min-width: 480px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 46vw;\n  }\n\n  .mainselect {\n    margin-left: 4vw;\n  }\n\n  .mainpanel {\n    font-size: 1.1em;\n  }\n\n}\n\n@media (max-width: 768px) {\n  .modal-content {\n    width: 75vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n\n@media (min-width: 768px) {\n  .modalbutton {\n    width: 250px;\n  }\n\n  .mainpanel {\n    font-size: 1.2em;\n  }\n}\n\n@media (min-width: 880px) {\n\n  .header, .picandselect, .mainpanel {\n    width: 50vw;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .contactlinks {\n    margin-left: 32vw;\n  }\n\n  .mainselect {\n    margin-left: 6vw;\n  }\n\n}\n\n@media (min-width: 1200px) {\n  @media (min-height: 1000px) {\n\n    .name {\n      font-size: 2.2em;\n    }\n\n    .title {\n      font-size: 1.3em;\n    }\n\n    .pic {\n      margin-left: 60px;\n    }\n\n    .socialicon {\n      width: 2.5em;\n      margin: 0 1vw 0 1vw;\n    }\n\n    .iconfont {\n      font-size: 16px;\n    }\n\n    .mainselect {\n      font-size: 1.2em;\n    }\n\n    .contactlinks {\n      margin-left: 400px;\n    }\n  }\n\n  .mainselect {\n    margin-left: 75px;\n    padding: 8px 100px 8px 50px;\n  }\n\n}\n\n@media (min-width: 1400px) {\n\n  .contactlinks {\n    margin-left: 450px;\n  }\n\n}\n", ""]);
 
 // exports
 
@@ -116,7 +116,7 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, ".skills {\n  font-size: 0.95em;\n  padding-left: 3vw;\n}\n\n@media (max-width: 640px) {\n  .skills {\n    padding-left: 0;\n  }\n}\n\n@media (min-width: 1200px) {\n  .skills {\n    padding-left: 5vw;\n  }\n}\n", ""]);
+exports.push([module.i, ".skills {\n  font-size: 0.95em;\n  padding-left: 30px;\n}\n\n.bottomnav {\n  text-align: center;\n  position: absolute;\n  bottom: 20px;\n  width: 100%;\n}\n\n.bottomicon {\n  height: 25px;\n  margin: 15px 40px 0px 40px;\n}\n\n@media (max-width: 640px) {\n  .skills {\n    padding-left: 0;\n  }\n}\n", ""]);
 
 // exports
 
@@ -136,42 +136,42 @@ module.exports = "<app-resume></app-resume>\n"
 /***/ 161:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Education History</h4>\n<br>\n<table class=\"education-table table table-responsive table-striped\">\n  <thead>\n    <tr>\n      <th>School</th>\n      <th>Location</th>\n      <th>Notes</th>\n      <th>Dates</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let history of educationHistory\">\n      <td>\n        {{ history.school }}\n      </td>\n      <td>\n        {{ history.location }}\n      </td>\n      <td>\n        {{ history.notes }}\n      </td>\n      <td>\n        {{ history.startdate }} - {{ history.enddate }}\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
+module.exports = "<h4 class=\"text-center\">Professional Employment History</h4>\n<br>\n<table class=\"employment-table table table-responsive table-striped\">\n  <thead>\n    <tr>\n      <th>Employer</th>\n      <th>Location</th>\n      <th>Title</th>\n      <th>Dates</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let history of employmentHistory\">\n      <td>\n        {{ history.company }}\n      </td>\n      <td>\n        {{ history.location }}\n      </td>\n      <td>\n        {{ history.position }}\n      </td>\n      <td>\n        {{ history.startdate }} - {{ history.enddate }}\n      </td>\n    </tr>\n  </tbody>\n</table>\n<div class=\"bottomnav\">\n  <img routerLink=\"/skills\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/portfolio\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
 
 /***/ }),
 
 /***/ 162:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Professional Employment History</h4>\n<br>\n<table class=\"employment-table table table-responsive table-striped\">\n  <thead>\n    <tr>\n      <th>Employer</th>\n      <th>Location</th>\n      <th>Title</th>\n      <th>Dates</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let history of employmentHistory\">\n      <td>\n        {{ history.company }}\n      </td>\n      <td>\n        {{ history.location }}\n      </td>\n      <td>\n        {{ history.position }}\n      </td>\n      <td>\n        {{ history.startdate }} - {{ history.enddate }}\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
+module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is Eric Eschelbach, thanks for taking the time to visit my web resume!\n    <br><br>\n    I am captivated by everything related to computers, and for the\n    last two years I have been teaching myself web app development.\n    I've designed and built this site myself from the ground up using Angular,\n    and it is currently being hosted by a Raspberry Pi (running NGINX)\n    in my living room!\n    <br><br>\n    My interests also include playing and recording music, designing and\n    building speakers, and caring for my growing collection of bonsai trees. I am\n    passionate about everything I do, and always put in the effort required to\n    get tasks done correctly.\n    <br><br>\n    Thanks again for considering my employment application, please\n    <a href=\"tel:801-313-0394\">contact</a> me if you have any questions!\n  </p>\n</div>\n<div class=\"bottomnav\">\n  <img src=\"assets/prev-disabled.png\" class=\"bottomicon\">\n  <img routerLink=\"/qualifications\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
 
 /***/ }),
 
 /***/ 163:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  portfolio works!\n</p>\n"
+module.exports = "<h4 class=\"text-center\">Portfolio</h4>\n<div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n"
 
 /***/ }),
 
 /***/ 164:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<div class=\"qualifications\">\n  <ul>\n    <li>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology.</li>\n    <br>\n    <li>Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly.</li>\n    <br>\n    <li>Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly.</li>\n    <br>\n    <li>Superb communication, planning, and team building skills.</li>\n  </ul>\n</div>\n"
+module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<div class=\"qualifications\">\n  <ul>\n    <li>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology.</li>\n    <br>\n    <li>Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly.</li>\n    <br>\n    <li>Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly.</li>\n    <br>\n    <li>Superb communication, planning, and team building skills.</li>\n  </ul>\n</div>\n<div class=\"bottomnav\">\n  <img routerLink=\"/introduction\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/skills\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
 
 /***/ }),
 
 /***/ 165:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"all\">\n  <div class=\"header\">\n    <div class=\"maininfo\">\n      <div class=\"name\" routerLink=\"/\">Eric Eschelbach</div>\n      <div class=\"title\">Full Stack Web Developer</div>\n      <div class=\"links\">\n        <a href=\"tel:801-313-0394\">801-313-0394</a> · <a href=\"mailto:ericeschelbach@gmail.com\">ericeschelbach@gmail.com</a>\n      </div>\n    </div>\n    <div class=\"contactlinks\">\n      <!--\n      <a href=\"https://github.com/spongah\">\n        <img src=\"/assets/github-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/github.png'\"\n        onmouseout=\"this.src='/assets/github-gray2.png'\">\n      </a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\">\n        <img src=\"/assets/linkedin-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/linkedin.png'\"\n        onmouseout=\"this.src='/assets/linkedin-gray2.png'\">\n      </a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\">\n        <img src=\"/assets/facebook-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/facebook.png'\"\n        onmouseout=\"this.src='/assets/facebook-gray2.png'\">\n      </a>\n      -->\n      <a href=\"https://github.com/spongah\" class=\"socicon-github iconfont github\"></a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\" class=\"socicon-linkedin iconfont linkedin\"></a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\" class=\"socicon-facebook iconfont facebook\"></a>\n    </div>\n  </div>\n  <div class=\"picandselect\">\n    <img src=\"/assets/me.jpg\" class=\"pic\" routerLink=\"/\">\n    <!-- <div class=\"mainselect\" (click)=\"changePage($event)\">Qualifications</div>  -->\n    <span class=\"mainselect\" data-toggle=\"modal\" data-target=\".pages-modal\">\n      {{ currentDisplay }}\n    </span>\n  </div>\n\n  <div class=\"modal fade pages-modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\">\n    <div class=\"modal-dialog modal-sm\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"container\">\n            <a href=\"#\" class=\"modal-link\" routerLink=\"/qualifications\" (click)=\"currentDisplay = 'Qualifications'\">\n              <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n              routerLink=\"/qualifications\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Qualifications</div>\n            </a>\n            <a href=\"#\" class=\"modal-link\" routerLink=\"/skills\" (click)=\"currentDisplay = 'Skills'\">\n              <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n              routerLink=\"/skills\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Skills</div>\n            </a>\n            <a href=\"#\" class=\"modal-link\" routerLink=\"/employment\" (click)=\"currentDisplay = 'Employment'\">\n              <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n               routerLink=\"/employment\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Employment</div>\n            </a>\n            <a href=\"#\" class=\"modal-link\" routerLink=\"/education\" (click)=\"currentDisplay = 'Education'\">\n              <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n              routerLink=\"/education\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Education</div>\n            </a>\n            <a href=\"#\" class=\"modal-link\" routerLink=\"/portfolio\" (click)=\"currentDisplay = 'Portfolio'\">\n              <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n              routerLink=\"/portfolio\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Portfolio</div>\n            </a>\n            <a href=\"/assets/Eric_Eschelbach-Full-StackWebDeveloper.docx\" class=\"modal-link\">\n              <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\">Download Resume</div>\n            </a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"mainpanel\">\n    <div class=\"maincontainer\">\n      <router-outlet></router-outlet>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"all\">\n  <div class=\"header\">\n    <div class=\"maininfo\">\n      <div class=\"name\" routerLink=\"/\">Eric Eschelbach</div>\n      <div class=\"title\">Full Stack Web Developer</div>\n      <div class=\"links\">\n        <a href=\"tel:801-313-0394\">801-313-0394</a> · <a href=\"mailto:ericeschelbach@gmail.com\">ericeschelbach@gmail.com</a>\n      </div>\n    </div>\n    <div class=\"contactlinks\">\n      <!--\n      <a href=\"https://github.com/spongah\">\n        <img src=\"/assets/github-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/github.png'\"\n        onmouseout=\"this.src='/assets/github-gray2.png'\">\n      </a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\">\n        <img src=\"/assets/linkedin-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/linkedin.png'\"\n        onmouseout=\"this.src='/assets/linkedin-gray2.png'\">\n      </a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\">\n        <img src=\"/assets/facebook-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/facebook.png'\"\n        onmouseout=\"this.src='/assets/facebook-gray2.png'\">\n      </a>\n      -->\n      <a href=\"https://github.com/spongah\" class=\"socicon-github iconfont github\"></a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\" class=\"socicon-linkedin iconfont linkedin\"></a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\" class=\"socicon-facebook iconfont facebook\"></a>\n    </div>\n  </div>\n  <div class=\"picandselect\">\n    <img src=\"/assets/me.jpg\" class=\"pic\" routerLink=\"/\">\n    <!-- <div class=\"mainselect\" (click)=\"changePage($event)\">Qualifications</div>  -->\n    <span class=\"mainselect\" data-toggle=\"modal\" data-target=\".pages-modal\">\n      {{ currentDisplay }}\n    </span>\n  </div>\n\n  <div class=\"modal fade pages-modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\">\n    <div class=\"modal-dialog modal-sm\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"container\">\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/introduction\" (click)=\"currentDisplay = 'Introduction'\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n            routerLink=\"/introduction\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Introduction</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/qualifications\" (click)=\"currentDisplay = 'Qualifications'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n            routerLink=\"/qualifications\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Qualifications</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/skills\" (click)=\"currentDisplay = 'Skills'\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n            routerLink=\"/skills\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Skills</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/employment\" (click)=\"currentDisplay = 'Employment'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n             routerLink=\"/employment\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Employment</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/portfolio\" (click)=\"currentDisplay = 'Portfolio'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n            routerLink=\"/portfolio\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Portfolio</div>\n          </a>\n          <a href=\"/assets/Eric_Eschelbach-Full-StackWebDeveloper.docx\" class=\"modal-link\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\">Download Resume</div>\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"mainpanel\">\n    <div class=\"maincontainer\">\n      <router-outlet></router-outlet>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 166:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Skills and Experience:</h4>\n<br>\n<div class=\"skills\">\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills1\">{{ skill.name }}</li>\n  </div>\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills2\">{{ skill.name }}</li>\n  </div>\n</div>\n"
+module.exports = "<h4 class=\"text-center\">Skills and Experience</h4>\n<br>\n<div class=\"skills\">\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills1\">{{ skill.name }}</li>\n  </div>\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills2\">{{ skill.name }}</li>\n  </div>\n</div>\n<br>\n<div class=\"bottomnav col-xs-12\">\n  <img routerLink=\"/qualifications\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/employment\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
 
 /***/ }),
 
@@ -302,9 +302,9 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_resume_resume_component__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_qualifications_qualifications_component__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_skills_skills_component__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_employment_employment_component__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_education_education_component__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_portfolio_portfolio_component__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_employment_employment_component__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_portfolio_portfolio_component__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_intro_intro_component__ = __webpack_require__(95);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -325,12 +325,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var appRoutes = [
+    { path: 'introduction', component: __WEBPACK_IMPORTED_MODULE_11__components_intro_intro_component__["a" /* IntroComponent */] },
     { path: 'qualifications', component: __WEBPACK_IMPORTED_MODULE_7__components_qualifications_qualifications_component__["a" /* QualificationsComponent */] },
     { path: 'skills', component: __WEBPACK_IMPORTED_MODULE_8__components_skills_skills_component__["a" /* SkillsComponent */] },
     { path: 'employment', component: __WEBPACK_IMPORTED_MODULE_9__components_employment_employment_component__["a" /* EmploymentComponent */] },
-    { path: 'education', component: __WEBPACK_IMPORTED_MODULE_10__components_education_education_component__["a" /* EducationComponent */] },
-    { path: 'portfolio', component: __WEBPACK_IMPORTED_MODULE_11__components_portfolio_portfolio_component__["a" /* PortfolioComponent */] },
-    { path: '**', redirectTo: '/qualifications' }
+    { path: 'portfolio', component: __WEBPACK_IMPORTED_MODULE_10__components_portfolio_portfolio_component__["a" /* PortfolioComponent */] },
+    { path: '**', redirectTo: '/introduction' }
 ];
 var AppModule = (function () {
     function AppModule() {
@@ -345,8 +345,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_7__components_qualifications_qualifications_component__["a" /* QualificationsComponent */],
             __WEBPACK_IMPORTED_MODULE_8__components_skills_skills_component__["a" /* SkillsComponent */],
             __WEBPACK_IMPORTED_MODULE_9__components_employment_employment_component__["a" /* EmploymentComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__components_education_education_component__["a" /* EducationComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__components_portfolio_portfolio_component__["a" /* PortfolioComponent */]
+            __WEBPACK_IMPORTED_MODULE_10__components_portfolio_portfolio_component__["a" /* PortfolioComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__components_intro_intro_component__["a" /* IntroComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -364,64 +364,6 @@ AppModule = __decorate([
 /***/ }),
 
 /***/ 94:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__ = __webpack_require__(17);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EducationComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var EducationComponent = (function () {
-    function EducationComponent(resume) {
-        this.resume = resume;
-        this.educationHistory = [
-            {
-                school: 'Salt Lake Community College',
-                location: 'West Valley, UT',
-                notes: 'CCNA Classes',
-                startdate: '2002',
-                enddate: '2003'
-            },
-            {
-                school: 'Honoka\'a High School',
-                location: 'Honoka\'a, HI',
-                notes: '3.5 GPA, National Honor Society',
-                startdate: '1995',
-                enddate: '1999'
-            }
-        ];
-    }
-    EducationComponent.prototype.ngOnInit = function () {
-        this.resume.currentDisplay = 'Education';
-        this.resume.allHeight = '98vh';
-    };
-    return EducationComponent;
-}());
-EducationComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
-        selector: 'app-education',
-        template: __webpack_require__(161),
-        styles: [__webpack_require__(154)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__["a" /* ResumeComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__["a" /* ResumeComponent */]) === "function" && _a || Object])
-], EducationComponent);
-
-var _a;
-//# sourceMappingURL=education.component.js.map
-
-/***/ }),
-
-/***/ 95:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -482,21 +424,61 @@ var EmploymentComponent = (function () {
     }
     EmploymentComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Employment';
-        this.resume.allHeight = '90vh';
     };
     return EmploymentComponent;
 }());
 EmploymentComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-employment',
-        template: __webpack_require__(162),
-        styles: [__webpack_require__(155)]
+        template: __webpack_require__(161),
+        styles: [__webpack_require__(154)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__["a" /* ResumeComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__["a" /* ResumeComponent */]) === "function" && _a || Object])
 ], EmploymentComponent);
 
 var _a;
 //# sourceMappingURL=employment.component.js.map
+
+/***/ }),
+
+/***/ 95:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__ = __webpack_require__(17);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var IntroComponent = (function () {
+    function IntroComponent(resume) {
+        this.resume = resume;
+    }
+    IntroComponent.prototype.ngOnInit = function () {
+        this.resume.currentDisplay = 'Introduction';
+    };
+    return IntroComponent;
+}());
+IntroComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'app-intro',
+        template: __webpack_require__(162),
+        styles: [__webpack_require__(155)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__["a" /* ResumeComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__resume_resume_component__["a" /* ResumeComponent */]) === "function" && _a || Object])
+], IntroComponent);
+
+var _a;
+//# sourceMappingURL=intro.component.js.map
 
 /***/ }),
 
@@ -524,7 +506,6 @@ var PortfolioComponent = (function () {
     }
     PortfolioComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Portfolio';
-        this.resume.allHeight = '100%';
     };
     return PortfolioComponent;
 }());
@@ -566,7 +547,6 @@ var QualificationsComponent = (function () {
     }
     QualificationsComponent.prototype.ngOnInit = function () {
         this.resume.currentDisplay = 'Qualifications';
-        this.resume.allHeight = '98vh';
     };
     return QualificationsComponent;
 }());
@@ -607,7 +587,7 @@ var SkillsComponent = (function () {
         this.resume = resume;
         this.skillsHeight = '100%';
         this.skills1 = [
-            { name: 'AngularJS/Angular' },
+            { name: 'AngularJS / Angular' },
             { name: 'Node.js / Express' },
             { name: 'Ruby on Rails' },
             { name: 'JavaScript ES6' },
@@ -621,7 +601,7 @@ var SkillsComponent = (function () {
         ];
         this.skills2 = [
             { name: 'Test Driven Design' },
-            { name: 'Source Version Control (GitHub, Heroku)' },
+            { name: 'Version Control (GitHub, Heroku)' },
             { name: 'vim, bash, ssh' },
             { name: 'UX/UI Design' },
             { name: 'Problem solving' },

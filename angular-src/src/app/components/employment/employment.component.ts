@@ -49,7 +49,6 @@ export class EmploymentComponent implements OnInit {
 
   ngOnInit() {
     this.resume.currentDisplay = 'Employment';
-    this.resume.allHeight = '90vh';
   }
 
 }
