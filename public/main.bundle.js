@@ -504,12 +504,22 @@ var PortfolioComponent = (function () {
     function PortfolioComponent(resume) {
         this.resume = resume;
         this.portfolioSites = [
+            // {
+            //   img: 'portfolio-hireasoundguy.jpg',
+            //   name: 'Hire A Sound Guy . COM',
+            //   link: 'http://www.ericeschelbach.com:8888/',
+            //   github: 'https://github.com/spongah/hireasoundguy',
+            //   description: `My flagship web app, currently in development. Will connect
+            //   audio engineers with venues who need their services. Node.js, Express,
+            //   MongoDB, and Angular 4 front-end.`
+            // },
             {
-                img: 'portfolio-hireasoundguy.jpg',
-                name: 'Hire A Sound Guy . COM',
-                link: 'http://www.ericeschelbach.com:8888/',
-                github: 'https://github.com/spongah/hireasoundguy',
-                description: "My flagship web app, currently in development. Will connect\n      audio engineers with venues who need their services. Node.js, Express,\n      MongoDB, and Angular 4 front-end."
+                // img: 'portfolio-rta3.jpg',
+                img: 'screen-capture---rta.gif',
+                name: 'RTA3 - Real Time Analyzer',
+                link: 'https://rta3.herokuapp.com',
+                github: 'https://github.com/spongah/rta3',
+                description: "Audio tool using FFT to analyze mic input and display\n      frequency information in real time. Audio engineers will use this to cut\n      frequencies which cause feedback in a particular venue. (Desktop Only)"
             },
             {
                 // img: 'portfolio-markco.jpg',
@@ -528,26 +538,12 @@ var PortfolioComponent = (function () {
                 description: "Audio tool designed for musicians who want to tune their\n      instruments to something other than 440-A (usually 432hz). This was my\n      first experience with Angular."
             },
             {
-                // img: 'portfolio-rta3.jpg',
-                img: 'screen-capture---rta.gif',
-                name: 'RTA3 - Real Time Analyzer',
-                link: 'https://rta3.herokuapp.com',
-                github: 'https://github.com/spongah/rta3',
-                description: "Audio tool using FFT to analyze mic input and display\n      frequency information in real time. Audio engineers will use this to cut\n      frequencies which cause feedback in a particular venue. (Desktop Only)"
-            },
-            {
-                img: 'portfolio-freqtrainer.jpg',
-                name: 'Frequency Trainer',
-                link: 'https://freqtrainer.herokuapp.com',
-                github: 'https://github.com/spongah/freqtrainer',
-                description: "Audio tool that plays a tone and asks the user to guess the\n      frequency. Helps audio engineers train for feedback during shows."
-            },
-            {
-                img: 'portfolio-mudcraft.jpg',
-                name: 'Mudcraft',
-                link: 'https://mudkraft.herokuapp.com',
-                github: 'https://github.com/spongah/mudcraft',
-                description: "Experimental adopotion of a classic text-based MUD into the\n      web browser environment. I made this to try React, but mostly used\n      plain Javascript to interact with a Rails back end."
+                // img: 'portfolio-garden.jpg',
+                img: 'screen-capture---garden.gif',
+                name: 'Garden Automator',
+                link: 'http://www.ericeschelbach.com:8080/',
+                github: '',
+                description: "I build this app to track temperature and humidity data\n      while giving remote access to relays and any other physical hardware\n      via a Raspberry Pi server. Apache web server and Python back end code.\n      Data is currently stored in a CSV but I want to move to a MySQL database\n      eventually."
             },
             {
                 img: 'portfolio-rocksolidsound.jpg',
@@ -564,11 +560,18 @@ var PortfolioComponent = (function () {
                 description: "Website I created for a client who mostly needed an online\n      form for competition entry submissions and sponsorship applications."
             },
             {
-                img: 'portfolio-garden.jpg',
-                name: 'Garden Automator',
-                link: 'http://www.ericeschelbach.com:8080/',
-                github: '',
-                description: "I build this app to track temperature and humidity data\n      while giving remote access to relays and any other physical hardware\n      via a Raspberry Pi server. Apache web server and Python back end code.\n      Data is currently stored in a CSV but I want to move to a MySQL database\n      eventually."
+                img: 'portfolio-freqtrainer.jpg',
+                name: 'Frequency Trainer',
+                link: 'https://freqtrainer.herokuapp.com',
+                github: 'https://github.com/spongah/freqtrainer',
+                description: "Audio tool that plays a tone and asks the user to guess the\n      frequency. Helps audio engineers train for feedback during shows."
+            },
+            {
+                img: 'portfolio-mudcraft.jpg',
+                name: 'Mudcraft',
+                link: 'https://mudkraft.herokuapp.com',
+                github: 'https://github.com/spongah/mudcraft',
+                description: "Experimental adopotion of a classic text-based MUD into the\n      web browser environment. I made this to try React, but mostly used\n      plain Javascript to interact with a Rails back end."
             },
             {
                 img: 'portfolio-newresume.jpg',
