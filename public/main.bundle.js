@@ -150,7 +150,7 @@ module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is
 /***/ 163:
 /***/ (function(module, exports) {
 
-module.exports = "<p class=\"text-center\" style=\"font-style: italic; font-size: 0.9em;\">Apps hosted by Heroku may delay a few seconds when first starting up</p><br>\n<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\" *ngIf=\"site.github\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n          <a href=\"{{ site.github }}\">\n            <button class=\"btn btn-primary\">GitHub</button>\n          </a>\n          <a href=\"{{ site.link }}\">\n            <button class=\"btn btn-info\">Demo</button>\n          </a>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n<br> -->\n"
+module.exports = "<p class=\"text-center\" style=\"font-style: italic; font-size: 0.9em;\">Apps hosted by Heroku may delay a few seconds when first starting up</p><br>\n<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\" *ngIf=\"site.link\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n          <a href=\"{{ site.github }}\">\n            <button class=\"btn btn-primary\">GitHub</button>\n          </a>\n          <a href=\"{{ site.link }}\">\n            <button class=\"btn btn-info\">Demo</button>\n          </a>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n<br> -->\n"
 
 /***/ }),
 
@@ -505,9 +505,16 @@ var PortfolioComponent = (function () {
         this.resume = resume;
         this.portfolioSites = [
             {
+                img: 'portfolio-newresume.jpg',
+                name: 'MEAN Web Resume',
+                link: '/',
+                github: 'https://github.com/spongah/newresume',
+                description: "This app. Eric Eschelbach's web-based resume in MEAN-stack\n      form. Built from the ground up using Node.js and Express server for\n      back-end, and Angular 4 with TypeScript for the front end."
+            },
+            {
                 img: 'portfolio-hireasoundguy.jpg',
                 name: 'Hire A Sound Guy . COM',
-                link: 'https://hireasoundguy.herokuapp.com',
+                link: '',
                 github: 'https://github.com/spongah/hireasoundguy',
                 description: "My flagship web app, currently in development. Will connect\n      audio engineers with venues who need their services. Node.js, Express,\n      MongoDB, and Angular 4 front-end."
             },
@@ -521,8 +528,8 @@ var PortfolioComponent = (function () {
             {
                 img: 'portfolio-chakra.jpg',
                 name: 'Chakra Tuner',
-                link: 'https://soundtools.herokuapp.com',
-                github: 'https://github.com/spongah/soundtools',
+                link: 'https://soundtools2.herokuapp.com',
+                github: 'https://github.com/spongah/soundtools2',
                 description: "Audio tool designed for musicians who want to tune their\n      instruments to something other than 440-A (usually 432hz). This was my\n      first experience with Angular."
             },
             {

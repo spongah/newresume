@@ -1,7 +1,7 @@
 <p class="text-center" style="font-style: italic; font-size: 0.9em;">Apps hosted by Heroku may delay a few seconds when first starting up</p><br>
 <div class="row">
   <div class="col-sm-6" *ngFor="let site of portfolioSites">
-    <a href="{{ site.link }}" *ngIf="site.github">
+    <a href="{{ site.link }}" *ngIf="site.link">
       <div class="thumbnail">
         <img src="/assets/{{ site.img }}" alt="{{ site.name }}">
         <div class="caption">

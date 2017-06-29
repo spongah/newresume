@@ -9,9 +9,18 @@ import { ResumeComponent } from '../resume/resume.component';
 export class PortfolioComponent implements OnInit {
   portfolioSites = [
     {
+      img: 'portfolio-newresume.jpg',
+      name: 'MEAN Web Resume',
+      link: '/',
+      github: 'https://github.com/spongah/newresume',
+      description: `This app. Eric Eschelbach's web-based resume in MEAN-stack
+      form. Built from the ground up using Node.js and Express server for
+      back-end, and Angular 4 with TypeScript for the front end.`
+    },
+    {
       img: 'portfolio-hireasoundguy.jpg',
       name: 'Hire A Sound Guy . COM',
-      link: 'https://hireasoundguy.herokuapp.com',
+      link: '',
       github: 'https://github.com/spongah/hireasoundguy',
       description: `My flagship web app, currently in development. Will connect
       audio engineers with venues who need their services. Node.js, Express,
@@ -30,8 +39,8 @@ export class PortfolioComponent implements OnInit {
     {
       img: 'portfolio-chakra.jpg',
       name: 'Chakra Tuner',
-      link: 'https://soundtools.herokuapp.com',
-      github: 'https://github.com/spongah/soundtools',
+      link: 'https://soundtools2.herokuapp.com',
+      github: 'https://github.com/spongah/soundtools2',
       description: `Audio tool designed for musicians who want to tune their
       instruments to something other than 440-A (usually 432hz). This was my
       first experience with Angular.`
