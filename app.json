@@ -1,8 +1,8 @@
 {
-  "name": "Eric Eschelbach Web Resume",
-  "description": "Eric Eschelbach Web Resume",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+  "name": "newresume",
+  "description": "Web based resume in MEAN-stack form.",
+  "repository": "https://github.com/spongah/newresume",
+  "logo": "",
+  "keywords": ["eric", "eschelbach", "resume"],
+  "image": ""
 }
