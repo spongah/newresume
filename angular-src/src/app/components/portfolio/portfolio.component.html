@@ -1,4 +1,4 @@
-<p class="text-center" style="font-style: italic">Apps hosted by Heroku may delay a few seconds while starting</p><br>
+<p class="text-center" style="font-style: italic; font-size: 0.9em;">Apps hosted by Heroku may delay a few seconds when first starting up</p><br>
 <div class="row">
   <div class="col-sm-6" *ngFor="let site of portfolioSites">
     <a href="{{ site.link }}" *ngIf="site.github">
@@ -9,7 +9,7 @@
           <p>{{ site.description }}</p>
           <a href="{{ site.github }}">
             <button class="btn btn-primary">GitHub</button>
-          </a> 
+          </a>
           <a href="{{ site.link }}">
             <button class="btn btn-info">Demo</button>
           </a>
