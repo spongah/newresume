@@ -136,42 +136,42 @@ module.exports = "<app-resume></app-resume>\n"
 /***/ 161:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Professional Employment History</h4>\n<br>\n<table class=\"employment-table table table-responsive table-striped\">\n  <thead>\n    <tr>\n      <th>Employer</th>\n      <th>Location</th>\n      <th>Title</th>\n      <th>Dates</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let history of employmentHistory\">\n      <td>\n        {{ history.company }}\n      </td>\n      <td>\n        {{ history.location }}\n      </td>\n      <td>\n        {{ history.position }}\n      </td>\n      <td>\n        {{ history.startdate }} - {{ history.enddate }}\n      </td>\n    </tr>\n  </tbody>\n</table>\n<div class=\"bottomnav\">\n  <img routerLink=\"/skills\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/portfolio\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
+module.exports = "<h4 class=\"text-center\">Professional Employment History</h4>\n<br>\n<table class=\"employment-table table table-responsive table-striped\">\n  <thead>\n    <tr>\n      <th>Employer</th>\n      <th>Location</th>\n      <th>Title</th>\n      <th>Dates</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let history of employmentHistory\">\n      <td>\n        {{ history.company }}\n      </td>\n      <td>\n        {{ history.location }}\n      </td>\n      <td>\n        {{ history.position }}\n      </td>\n      <td>\n        {{ history.startdate }} - {{ history.enddate }}\n      </td>\n    </tr>\n  </tbody>\n</table>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/skills\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/portfolio\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
 
 /***/ }),
 
 /***/ 162:
 /***/ (function(module, exports) {
 
-module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is Eric Eschelbach. Thank you for taking the time to visit my\n    web resume!\n    <br><br>\n    I am captivated by everything related to computers, and for the\n    last two years I have been teaching myself web app development.\n    I've designed and built this site myself from the ground up using Angular,\n    and it is currently being hosted by a Raspberry Pi (running NGINX)\n    in my living room.\n    <br><br>\n    My interests also include playing and recording music, designing and\n    building speakers, and caring for my growing collection of bonsai trees. I\n    am passionate about everything I do, and always put in the effort required\n    to get tasks done correctly.\n    <br><br>\n    Thanks again for considering my employment application, please\n    <a href=\"tel:801-313-0394\">contact</a> me if you have any questions!\n  </p>\n</div>\n<div class=\"bottomnav\">\n  <img src=\"assets/prev-disabled.png\" class=\"bottomicon\">\n  <img routerLink=\"/qualifications\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
+module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is Eric Eschelbach. Thank you for taking the time to visit my\n    web resume!\n    <br><br>\n    I am captivated by everything related to computers, and for the\n    last two years I have been teaching myself web app development.\n    I've designed and built this site myself from the ground up using Angular,\n    and it is currently being hosted by a Raspberry Pi web server in my home office.\n    <br><br>\n    My interests also include playing and recording music, designing and\n    building speakers, and caring for my growing collection of bonsai trees. I\n    am passionate about everything I do, and always put in the effort required\n    to get tasks done correctly.\n    <br><br>\n    Thanks again for considering my employment application, please\n    <a href=\"tel:801-313-0394\">contact</a> me if you have any questions!\n  </p>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img src=\"assets/prev-disabled.png\" class=\"bottomicon\">\n  <img routerLink=\"/qualifications\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
 
 /***/ }),
 
 /***/ 163:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n<br>\n"
+module.exports = "<p class=\"text-center\" style=\"font-style: italic\">Apps hosted by Heroku may delay a few seconds while starting</p><br>\n<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\" *ngIf=\"site.github\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n          <a href=\"{{ site.github }}\">\n            <button class=\"btn btn-primary\">GitHub</button>\n          </a> \n          <a href=\"{{ site.link }}\">\n            <button class=\"btn btn-info\">Demo</button>\n          </a>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n<br> -->\n"
 
 /***/ }),
 
 /***/ 164:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<div class=\"qualifications\">\n  <ul>\n    <li>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology.</li>\n    <br>\n    <li>Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly.</li>\n    <br>\n    <li>Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly.</li>\n    <br>\n    <li>Superb communication, planning, and team building skills.</li>\n  </ul>\n</div>\n<div class=\"bottomnav\">\n  <img routerLink=\"/introduction\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/skills\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
+module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<div class=\"qualifications\">\n  <ul>\n    <li>Creative, highly motivated, self-taught Full-Stack Web Developer with a strong business-minded work ethic and a natural passion for technology.</li>\n    <br>\n    <li>Detail oriented, technically talented with experience testing and developing software to be robust, effective, and user friendly.</li>\n    <br>\n    <li>Extensive experience personally solving a wide variety of unfamiliar problems quickly in a high-pressure environment while learning new skills and technology quickly and thoroughly.</li>\n    <br>\n    <li>Superb communication, planning, and team building skills.</li>\n  </ul>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/introduction\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/skills\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
 
 /***/ }),
 
 /***/ 165:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"all\">\n  <div class=\"header\">\n    <div class=\"maininfo\">\n      <div class=\"name\" routerLink=\"/\">Eric Eschelbach</div>\n      <div class=\"title\">Full Stack Web Developer</div>\n      <div class=\"links\">\n        <a href=\"tel:801-313-0394\">801-313-0394</a> · <a href=\"mailto:ericeschelbach@gmail.com\">ericeschelbach@gmail.com</a>\n      </div>\n    </div>\n    <div class=\"contactlinks\">\n      <!--\n      <a href=\"https://github.com/spongah\">\n        <img src=\"/assets/github-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/github.png'\"\n        onmouseout=\"this.src='/assets/github-gray2.png'\">\n      </a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\">\n        <img src=\"/assets/linkedin-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/linkedin.png'\"\n        onmouseout=\"this.src='/assets/linkedin-gray2.png'\">\n      </a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\">\n        <img src=\"/assets/facebook-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/facebook.png'\"\n        onmouseout=\"this.src='/assets/facebook-gray2.png'\">\n      </a>\n      -->\n      <a href=\"https://github.com/spongah\" class=\"socicon-github iconfont github\"></a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\" class=\"socicon-linkedin iconfont linkedin\"></a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\" class=\"socicon-facebook iconfont facebook\"></a>\n    </div>\n  </div>\n  <div class=\"picandselect\">\n    <img src=\"/assets/me.jpg\" class=\"pic\" routerLink=\"/\">\n    <!-- <div class=\"mainselect\" (click)=\"changePage($event)\">Qualifications</div>  -->\n    <span class=\"mainselect\" data-toggle=\"modal\" data-target=\".pages-modal\">\n      {{ currentDisplay }}\n    </span>\n  </div>\n\n  <div class=\"modal fade pages-modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\">\n    <div class=\"modal-dialog modal-sm\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"container\">\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/introduction\" (click)=\"currentDisplay = 'Introduction'\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n            routerLink=\"/introduction\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Introduction</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/qualifications\" (click)=\"currentDisplay = 'Qualifications'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n            routerLink=\"/qualifications\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Qualifications</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/skills\" (click)=\"currentDisplay = 'Skills'\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n            routerLink=\"/skills\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Skills</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/employment\" (click)=\"currentDisplay = 'Employment'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n             routerLink=\"/employment\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Employment</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/portfolio\" (click)=\"currentDisplay = 'Portfolio'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n            routerLink=\"/portfolio\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Portfolio</div>\n          </a>\n          <a href=\"/assets/Eric_Eschelbach-Full-StackWebDeveloper.docx\" class=\"modal-link\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\">Download Resume</div>\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"mainpanel\">\n    <div class=\"maincontainer\">\n      <router-outlet></router-outlet>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"all\">\n  <div class=\"header\">\n    <div class=\"maininfo\">\n      <div class=\"name\" routerLink=\"/\">Eric Eschelbach</div>\n      <div class=\"title\">Full Stack Web Developer</div>\n      <div class=\"links\">\n        <a href=\"tel:801-313-0394\">801-313-0394</a> · <a href=\"mailto:ericeschelbach@gmail.com\">ericeschelbach@gmail.com</a>\n      </div>\n    </div>\n    <div class=\"contactlinks\">\n      <!--\n      <a href=\"https://github.com/spongah\">\n        <img src=\"/assets/github-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/github.png'\"\n        onmouseout=\"this.src='/assets/github-gray2.png'\">\n      </a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\">\n        <img src=\"/assets/linkedin-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/linkedin.png'\"\n        onmouseout=\"this.src='/assets/linkedin-gray2.png'\">\n      </a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\">\n        <img src=\"/assets/facebook-gray2.png\" class=\"socialicon\"\n        onmouseover=\"this.src='/assets/facebook.png'\"\n        onmouseout=\"this.src='/assets/facebook-gray2.png'\">\n      </a>\n      -->\n      <a href=\"https://github.com/spongah\" class=\"socicon-github iconfont github\"></a>\n      <a href=\"https://www.linkedin.com/in/eric-eschelbach-719b09102/\" class=\"socicon-linkedin iconfont linkedin\"></a>\n      <a href=\"https://www.facebook.com/eric.eschelbach\" class=\"socicon-facebook iconfont facebook\"></a>\n    </div>\n  </div>\n  <div class=\"picandselect\">\n    <img src=\"/assets/me.jpg\" class=\"pic\" routerLink=\"/\">\n    <!-- <div class=\"mainselect\" (click)=\"changePage($event)\">Qualifications</div>  -->\n    <span class=\"mainselect\" data-toggle=\"modal\" data-target=\".pages-modal\">\n      {{ currentDisplay }}\n    </span>\n  </div>\n\n  <div class=\"modal fade pages-modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\">\n    <div class=\"modal-dialog modal-sm\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"container\">\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/introduction\" (click)=\"currentDisplay = 'Introduction'\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n            routerLink=\"/introduction\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Introduction</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/portfolio\" (click)=\"currentDisplay = 'Portfolio'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n            routerLink=\"/portfolio\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Portfolio</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/qualifications\" (click)=\"currentDisplay = 'Qualifications'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n            routerLink=\"/qualifications\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Qualifications</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/skills\" (click)=\"currentDisplay = 'Skills'\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\"\n            routerLink=\"/skills\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Skills</div>\n          </a>\n          <a href=\"#\" class=\"modal-link\" routerLink=\"/employment\" (click)=\"currentDisplay = 'Employment'\">\n            <div data-toggle=\"modal\" data-target=\".pages-modal\" class=\"modalbutton\"\n             routerLink=\"/employment\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{ exact : true }\">Employment</div>\n          </a>\n          <a href=\"/assets/Eric_Eschelbach-Full-StackWebDeveloper.docx\" class=\"modal-link\">\n            <div class=\"modalbutton\" data-toggle=\"modal\" data-target=\".pages-modal\">Download Resume</div>\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"mainpanel\">\n    <div class=\"maincontainer\">\n      <router-outlet></router-outlet>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 166:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Skills and Experience</h4>\n<br>\n<div class=\"skills\">\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills1\">{{ skill.name }}</li>\n  </div>\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills2\">{{ skill.name }}</li>\n  </div>\n</div>\n<br>\n<div class=\"bottomnav col-xs-12\">\n  <img routerLink=\"/qualifications\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/employment\" src=\"assets/next.png\" class=\"bottomicon\">\n</div>\n"
+module.exports = "<h4 class=\"text-center\">Skills and Experience</h4>\n<br>\n<div class=\"skills\">\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills1\">{{ skill.name }}</li>\n  </div>\n  <div class=\"col-xs-6\">\n    <li *ngFor=\"let skill of skills2\">{{ skill.name }}</li>\n  </div>\n</div>\n<!-- <br>\n<div class=\"bottomnav col-xs-12\">\n  <img routerLink=\"/qualifications\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/employment\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
 
 /***/ }),
 
@@ -507,56 +507,65 @@ var PortfolioComponent = (function () {
             {
                 img: 'portfolio-hireasoundguy.jpg',
                 name: 'Hire A Sound Guy . COM',
-                link: '/portfolio',
-                description: "My flagship web app, currently in development. Will connect audio engineers with venues who need their services. Node.js, Express, MongoDB, and Angular 4 front-end."
+                link: 'https://hireasoundguy.herokuapp.com',
+                github: 'https://github.com/spongah/hireasoundguy',
+                description: "My flagship web app, currently in development. Will connect\n      audio engineers with venues who need their services. Node.js, Express,\n      MongoDB, and Angular 4 front-end."
             },
             {
                 img: 'portfolio-markco.jpg',
                 name: 'Markco Beta',
                 link: 'https://markco1.herokuapp.com',
-                description: "GPS tracker for groups using Google maps and GPS API's. Complete, functioning minimum viable product completed. Rails back end, and vanilla javascript up front (this was before I learned Angular)."
+                github: 'https://github.com/spongah/markco1',
+                description: "GPS tracker for groups using Google maps and GPS API's.\n      Complete, functioning minimum viable product using Javascript and a Rails\n      back end. Needs some serious refactoring, but it is fully functional.\n      Give it a try!"
             },
             {
                 img: 'portfolio-chakra.jpg',
                 name: 'Chakra Tuner',
                 link: 'https://soundtools.herokuapp.com',
-                description: "Audio tool designed for musicians who want to tune their instruments to something other than 440 A tuning (usually 432hz). This was my first experience with Angular."
+                github: 'https://github.com/spongah/soundtools',
+                description: "Audio tool designed for musicians who want to tune their\n      instruments to something other than 440-A (usually 432hz). This was my\n      first experience with Angular."
             },
             {
                 img: 'portfolio-rta3.jpg',
                 name: 'RTA3 - Real Time Analyzer',
                 link: 'https://rta3.herokuapp.com',
-                description: "Audio tool using FFT to analyze mic input and display frequency information in real time. Audio engineers will use this to cut frequencies which cause feedback in a particular venue."
+                github: 'https://github.com/spongah/rta3',
+                description: "Audio tool using FFT to analyze mic input and display\n      frequency information in real time. Audio engineers will use this to cut\n      frequencies which cause feedback in a particular venue. (Desktop Only)"
             },
             {
                 img: 'portfolio-rocksolidsound.jpg',
                 name: 'Rock Solid Sound',
                 link: 'https://www.rocksolidsound.net',
-                description: "Website I created by manipulating a template for my own live-sound business."
+                github: '',
+                description: "Website I created by manipulating a template for my own\n      live-sound business."
             },
             {
                 img: 'portfolio-honeypot.jpg',
                 name: 'Honeypot Glass Competition',
                 link: 'http://honeypotglasscomp.com',
-                description: "Website I created for a client who mostly needed an online form for competition entry submissions and sponsorship applications."
-            },
-            {
-                img: 'portfolio-mudcraft.jpg',
-                name: 'Mudcraft',
-                link: 'https://mudkraft.herokuapp.com',
-                description: "Experimental adopotion of a classic text-based MUD into the web browser environment. I made this to try out React, but mostly used vanilla javascript to interact with a Rails back end."
+                github: '',
+                description: "Website I created for a client who mostly needed an online\n      form for competition entry submissions and sponsorship applications."
             },
             {
                 img: 'portfolio-freqtrainer.jpg',
                 name: 'Frequency Trainer',
                 link: 'https://freqtrainer.herokuapp.com',
-                description: "Audio tool that plays a tone and asks the user to guess the frequency. Helps audio engineers train for feedback during shows."
+                github: 'https://github.com/spongah/freqtrainer',
+                description: "Audio tool that plays a tone and asks the user to guess the\n      frequency. Helps audio engineers train for feedback during shows."
+            },
+            {
+                img: 'portfolio-mudcraft.jpg',
+                name: 'Mudcraft',
+                link: 'https://mudkraft.herokuapp.com',
+                github: 'https://github.com/spongah/mudcraft',
+                description: "Experimental adopotion of a classic text-based MUD into the\n      web browser environment. I made this to try React, but mostly used\n      plain Javascript to interact with a Rails back end."
             },
             {
                 img: 'portfolio-garden.jpg',
                 name: 'Garden Automator',
-                link: 'https://localhost:666',
-                description: "I build this app to track temperature and humidity data while giving remote access to relays and any other physical hardware via a Raspberry Pi server. Apache web server and Python back end code. Data is currently stored in a CSV but I want to move to a MySQL database eventually."
+                link: '',
+                github: '',
+                description: "I build this app to track temperature and humidity data\n      while giving remote access to relays and any other physical hardware\n      via a Raspberry Pi server. Apache web server and Python back end code.\n      Data is currently stored in a CSV but I want to move to a MySQL database\n      eventually."
             },
         ];
     }

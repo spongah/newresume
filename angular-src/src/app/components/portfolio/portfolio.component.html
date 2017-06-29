@@ -1,18 +1,25 @@
+<p class="text-center" style="font-style: italic">Apps hosted by Heroku may delay a few seconds while starting</p><br>
 <div class="row">
   <div class="col-sm-6" *ngFor="let site of portfolioSites">
-    <a href="{{ site.link }}">
+    <a href="{{ site.link }}" *ngIf="site.github">
       <div class="thumbnail">
         <img src="/assets/{{ site.img }}" alt="{{ site.name }}">
         <div class="caption">
           <h3>{{ site.name }}</h3>
           <p>{{ site.description }}</p>
+          <a href="{{ site.github }}">
+            <button class="btn btn-primary">GitHub</button>
+          </a> 
+          <a href="{{ site.link }}">
+            <button class="btn btn-info">Demo</button>
+          </a>
         </div>
       </div>
     </a>
   </div>
 </div>
-<div class="bottomnav">
+<!-- <div class="bottomnav">
   <img routerLink="/employment" src="assets/prev.png" class="bottomicon">
   <img src="assets/next-disabled.png" class="bottomicon">
 </div>
-<br>
+<br> -->

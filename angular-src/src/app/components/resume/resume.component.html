@@ -46,6 +46,10 @@
             <div class="modalbutton" data-toggle="modal" data-target=".pages-modal"
             routerLink="/introduction" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{ exact : true }">Introduction</div>
           </a>
+          <a href="#" class="modal-link" routerLink="/portfolio" (click)="currentDisplay = 'Portfolio'">
+            <div data-toggle="modal" data-target=".pages-modal" class="modalbutton"
+            routerLink="/portfolio" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{ exact : true }">Portfolio</div>
+          </a>
           <a href="#" class="modal-link" routerLink="/qualifications" (click)="currentDisplay = 'Qualifications'">
             <div data-toggle="modal" data-target=".pages-modal" class="modalbutton"
             routerLink="/qualifications" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{ exact : true }">Qualifications</div>
@@ -57,10 +61,6 @@
           <a href="#" class="modal-link" routerLink="/employment" (click)="currentDisplay = 'Employment'">
             <div data-toggle="modal" data-target=".pages-modal" class="modalbutton"
              routerLink="/employment" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{ exact : true }">Employment</div>
-          </a>
-          <a href="#" class="modal-link" routerLink="/portfolio" (click)="currentDisplay = 'Portfolio'">
-            <div data-toggle="modal" data-target=".pages-modal" class="modalbutton"
-            routerLink="/portfolio" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{ exact : true }">Portfolio</div>
           </a>
           <a href="/assets/Eric_Eschelbach-Full-StackWebDeveloper.docx" class="modal-link">
             <div class="modalbutton" data-toggle="modal" data-target=".pages-modal">Download Resume</div>
