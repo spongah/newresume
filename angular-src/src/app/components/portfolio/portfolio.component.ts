@@ -11,7 +11,7 @@ export class PortfolioComponent implements OnInit {
     {
       img: 'portfolio-hireasoundguy.jpg',
       name: 'Hire A Sound Guy . COM',
-      link: 'http://www.ericeschelbach.com:8080/',
+      link: 'http://www.ericeschelbach.com:8888/',
       github: 'https://github.com/spongah/hireasoundguy',
       description: `My flagship web app, currently in development. Will connect
       audio engineers with venues who need their services. Node.js, Express,
