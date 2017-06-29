@@ -563,7 +563,7 @@ var PortfolioComponent = (function () {
             {
                 img: 'portfolio-garden.jpg',
                 name: 'Garden Automator',
-                link: '',
+                link: 'http://www.ericeschelbach.com:8080/',
                 github: '',
                 description: "I build this app to track temperature and humidity data\n      while giving remote access to relays and any other physical hardware\n      via a Raspberry Pi server. Apache web server and Python back end code.\n      Data is currently stored in a CSV but I want to move to a MySQL database\n      eventually."
             },

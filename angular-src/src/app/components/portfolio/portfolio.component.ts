@@ -81,7 +81,7 @@ export class PortfolioComponent implements OnInit {
     {
       img: 'portfolio-garden.jpg',
       name: 'Garden Automator',
-      link: '',
+      link: 'http://www.ericeschelbach.com:8080/',
       github: '',
       description: `I build this app to track temperature and humidity data
       while giving remote access to relays and any other physical hardware
