@@ -9,18 +9,9 @@ import { ResumeComponent } from '../resume/resume.component';
 export class PortfolioComponent implements OnInit {
   portfolioSites = [
     {
-      img: 'portfolio-newresume.jpg',
-      name: 'MEAN Web Resume',
-      link: '/',
-      github: 'https://github.com/spongah/newresume',
-      description: `This app. Eric Eschelbach's web-based resume in MEAN-stack
-      form. Built from the ground up using Node.js and Express server for
-      back-end, and Angular 4 with TypeScript for the front end.`
-    },
-    {
       img: 'portfolio-hireasoundguy.jpg',
       name: 'Hire A Sound Guy . COM',
-      link: '',
+      link: 'http://www.ericeschelbach.com:8080/',
       github: 'https://github.com/spongah/hireasoundguy',
       description: `My flagship web app, currently in development. Will connect
       audio engineers with venues who need their services. Node.js, Express,
@@ -55,22 +46,6 @@ export class PortfolioComponent implements OnInit {
       frequencies which cause feedback in a particular venue. (Desktop Only)`
     },
     {
-      img: 'portfolio-rocksolidsound.jpg',
-      name: 'Rock Solid Sound',
-      link: 'https://www.rocksolidsound.net',
-      github: '',
-      description: `Website I created by manipulating a template for my own
-      live-sound business.`
-    },
-    {
-      img: 'portfolio-honeypot.jpg',
-      name: 'Honeypot Glass Competition',
-      link: 'http://honeypotglasscomp.com',
-      github: '',
-      description: `Website I created for a client who mostly needed an online
-      form for competition entry submissions and sponsorship applications.`
-    },
-    {
       img: 'portfolio-freqtrainer.jpg',
       name: 'Frequency Trainer',
       link: 'https://freqtrainer.herokuapp.com',
@@ -88,6 +63,22 @@ export class PortfolioComponent implements OnInit {
       plain Javascript to interact with a Rails back end.`
     },
     {
+      img: 'portfolio-rocksolidsound.jpg',
+      name: 'Rock Solid Sound',
+      link: 'https://www.rocksolidsound.net',
+      github: '',
+      description: `Website I created by manipulating a template for my own
+      live-sound business.`
+    },
+    {
+      img: 'portfolio-honeypot.jpg',
+      name: 'Honeypot Glass Competition',
+      link: 'http://honeypotglasscomp.com',
+      github: '',
+      description: `Website I created for a client who mostly needed an online
+      form for competition entry submissions and sponsorship applications.`
+    },
+    {
       img: 'portfolio-garden.jpg',
       name: 'Garden Automator',
       link: '',
@@ -97,6 +88,15 @@ export class PortfolioComponent implements OnInit {
       via a Raspberry Pi server. Apache web server and Python back end code.
       Data is currently stored in a CSV but I want to move to a MySQL database
       eventually.`
+    },
+    {
+      img: 'portfolio-newresume.jpg',
+      name: 'MEAN Web Resume',
+      link: '/',
+      github: 'https://github.com/spongah/newresume',
+      description: `This app. Eric Eschelbach's web-based resume in MEAN-stack
+      form. Built from the ground up using Node.js and Express server for
+      back-end, and Angular 4 with TypeScript for the front end.`
     },
   ];
 
