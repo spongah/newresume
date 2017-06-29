@@ -512,21 +512,24 @@ var PortfolioComponent = (function () {
                 description: "My flagship web app, currently in development. Will connect\n      audio engineers with venues who need their services. Node.js, Express,\n      MongoDB, and Angular 4 front-end."
             },
             {
-                img: 'portfolio-markco.jpg',
+                // img: 'portfolio-markco.jpg',
+                img: 'screen-capture---markco.gif',
                 name: 'Markco Beta',
                 link: 'https://markco1.herokuapp.com',
                 github: 'https://github.com/spongah/markco1',
                 description: "GPS tracker for groups using Google maps and GPS API's.\n      Complete, functioning minimum viable product using Javascript and a Rails\n      back end. Needs some serious refactoring, but it is fully functional.\n      Give it a try!"
             },
             {
-                img: 'portfolio-chakra.jpg',
+                // img: 'portfolio-chakra.jpg',
+                img: 'screen-capture---chakratuner.gif',
                 name: 'Chakra Tuner',
                 link: 'https://soundtools2.herokuapp.com',
                 github: 'https://github.com/spongah/soundtools2',
                 description: "Audio tool designed for musicians who want to tune their\n      instruments to something other than 440-A (usually 432hz). This was my\n      first experience with Angular."
             },
             {
-                img: 'portfolio-rta3.jpg',
+                // img: 'portfolio-rta3.jpg',
+                img: 'screen-capture---rta.gif',
                 name: 'RTA3 - Real Time Analyzer',
                 link: 'https://rta3.herokuapp.com',
                 github: 'https://github.com/spongah/rta3',

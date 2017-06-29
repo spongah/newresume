@@ -18,7 +18,8 @@ export class PortfolioComponent implements OnInit {
       MongoDB, and Angular 4 front-end.`
     },
     {
-      img: 'portfolio-markco.jpg',
+      // img: 'portfolio-markco.jpg',
+      img: 'screen-capture---markco.gif',
       name: 'Markco Beta',
       link: 'https://markco1.herokuapp.com',
       github: 'https://github.com/spongah/markco1',
@@ -28,7 +29,8 @@ export class PortfolioComponent implements OnInit {
       Give it a try!`
     },
     {
-      img: 'portfolio-chakra.jpg',
+      // img: 'portfolio-chakra.jpg',
+      img: 'screen-capture---chakratuner.gif',
       name: 'Chakra Tuner',
       link: 'https://soundtools2.herokuapp.com',
       github: 'https://github.com/spongah/soundtools2',
@@ -37,7 +39,8 @@ export class PortfolioComponent implements OnInit {
       first experience with Angular.`
     },
     {
-      img: 'portfolio-rta3.jpg',
+      // img: 'portfolio-rta3.jpg',
+      img: 'screen-capture---rta.gif',
       name: 'RTA3 - Real Time Analyzer',
       link: 'https://rta3.herokuapp.com',
       github: 'https://github.com/spongah/rta3',
