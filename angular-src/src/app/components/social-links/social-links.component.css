@@ -1,0 +1,94 @@
+.contactlinks {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.contactlinks {
+  padding-top: 70px;
+  margin-left: 63vw;
+}
+
+.iconfont {
+  font-size: 13px;
+  color: #616161;
+  border: 2.2px solid #616161;
+  border-radius: 100%;
+  margin: 0 1vw 0 1vw;
+  padding: 0.5em;
+
+}
+
+.github {
+  padding-right: 0.57em;
+  padding-left: 0.53em;
+}
+
+.linkedin {
+  padding-left: 0.6em;
+  padding-right: 0.55em;
+}
+
+.facebook {
+  padding-right: 0.57em;
+  padding-left: 0.53em;
+}
+
+.iconfont:hover {
+  color: #000000;
+  border: 2.2px solid #000000;
+  text-decoration:none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (max-width: 320px) {
+
+  .contactlinks {
+    margin-left: 55vw;
+  }
+
+}
+
+@media (min-width: 480px) {
+
+  .contactlinks {
+    margin-left: 46vw;
+  }
+
+}
+
+@media (min-width: 880px) {
+
+  .contactlinks {
+    margin-left: 32vw;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  @media (min-height: 1000px) {
+
+    .iconfont {
+      font-size: 16px;
+    }
+
+    .contactlinks {
+      margin-left: 400px;
+    }
+
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  .contactlinks {
+    margin-left: 450px;
+  }
+
+}

@@ -3,6 +3,10 @@
   margin-left: -10px;
 }
 
+.qualifications li {
+  margin-bottom: 2vmin;
+}
+
 .bottomnav {
   text-align: center;
   position: absolute;

@@ -11,6 +11,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { EmploymentComponent } from './components/employment/employment.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { ModalComponent } from './components/modal/modal.component';
+import { SocialLinksComponent } from './components/social-links/social-links.component';
 
 const appRoutes: Routes = [
   { path: 'introduction', component: IntroComponent },
@@ -30,7 +32,9 @@ const appRoutes: Routes = [
     SkillsComponent,
     EmploymentComponent,
     PortfolioComponent,
-    IntroComponent
+    IntroComponent,
+    ModalComponent,
+    SocialLinksComponent
   ],
   imports: [
     BrowserModule,
