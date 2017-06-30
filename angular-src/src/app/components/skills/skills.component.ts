@@ -7,7 +7,6 @@ import { ResumeComponent } from '../resume/resume.component';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  skillsHeight: String = '100%';
   skills1: Object = [
     { name: 'AngularJS / Angular' },
     { name: 'Node.js / Express' },

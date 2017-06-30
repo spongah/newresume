@@ -9,7 +9,7 @@ import { ResumeComponent } from '../resume/resume.component';
 export class EmploymentComponent implements OnInit {
   employmentHistory: Object = [
     {
-      company: 'Plansource',
+      company: 'PlanSource',
       location: 'Salt Lake City, UT',
       position: 'EDI Analyst',
       startdate: '2016',

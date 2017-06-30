@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements OnInit {
-  currentDisplay: any;
+  currentDisplay: String;
 
   constructor(private router: Router) { }
 
