@@ -20,12 +20,13 @@ export class PortfolioComponent implements OnInit {
     {
       // img: 'portfolio-rta3.jpg',
       img: 'screen-capture---rta.gif',
-      name: 'RTA3 - Real Time Analyzer',
+      name: 'Real Time Analyzer',
       link: 'https://rta3.herokuapp.com',
       github: 'https://github.com/spongah/rta3',
-      description: `Audio tool using FFT to analyze mic input and display
-      frequency information in real time. Audio engineers will use this to cut
-      frequencies which cause feedback in a particular venue. (Desktop Only)`
+      description: `Sleek, customizable RTA tool in a responsive browser based
+      app. Uses "P5.sound" JavaScript library to access mic input and perform
+      frequency analysis (via Fast Fourier transform). Perfect for ringing out
+      feedback in a PA system! (Does not currently work with mobile devices)`
     },
     {
       // img: 'portfolio-markco.jpg',
@@ -33,20 +34,10 @@ export class PortfolioComponent implements OnInit {
       name: 'Markco Beta',
       link: 'https://markco1.herokuapp.com',
       github: 'https://github.com/spongah/markco1',
-      description: `GPS tracker for groups using Google maps and GPS API's.
-      Complete, functioning minimum viable product using Javascript and a Rails
-      back end. Needs some serious refactoring, but it is fully functional.
-      Give it a try!`
-    },
-    {
-      // img: 'portfolio-chakra.jpg',
-      img: 'screen-capture---chakratuner.gif',
-      name: 'Chakra Tuner',
-      link: 'https://soundtools2.herokuapp.com',
-      github: 'https://github.com/spongah/soundtools2',
-      description: `Audio tool designed for musicians who want to tune their
-      instruments to something other than 440-A (usually 432hz). This was my
-      first experience with Angular.`
+      description: `Mobile-first web app that allows groups of people to track
+      each others location in real time. Uses HTML5 geolocation and Google Maps
+      API along with Ruby on Rails and JavaScript to create a simple, effective
+      user experience. I could code this so much better now, but it works!`
     },
     {
       // img: 'portfolio-garden.jpg',
@@ -54,53 +45,72 @@ export class PortfolioComponent implements OnInit {
       name: 'Garden Automator',
       link: 'http://www.ericeschelbach.com:8080/',
       github: '',
-      description: `I build this app to track temperature and humidity data
-      while giving remote access to relays and any other physical hardware
-      via a Raspberry Pi server. Apache web server and Python back end code.
-      Data is currently stored in a CSV but I want to move to a MySQL database
-      eventually.`
+      description: `Remote automation using 120v relays based on termperature
+      and humidity data. Graph of data is displayed, and a control panel allows
+      the administrator access to heating and cooling threshold settings. Fans
+      or heaters can turn on or off to control the climate of an indoor garden.
+      Apache web server and Python back end code.`
     },
     {
-      img: 'portfolio-rocksolidsound.jpg',
-      name: 'Rock Solid Sound',
-      link: 'https://www.rocksolidsound.net',
-      github: '',
-      description: `Website I created by manipulating a template for my own
-      live-sound business.`
-    },
-    {
-      img: 'portfolio-honeypot.jpg',
-      name: 'Honeypot Glass Competition',
-      link: 'http://honeypotglasscomp.com',
-      github: '',
-      description: `Website I created for a client who mostly needed an online
-      form for competition entry submissions and sponsorship applications.`
-    },
-    {
-      img: 'portfolio-freqtrainer.jpg',
-      name: 'Frequency Trainer',
-      link: 'https://freqtrainer.herokuapp.com',
-      github: 'https://github.com/spongah/freqtrainer',
-      description: `Audio tool that plays a tone and asks the user to guess the
-      frequency. Helps audio engineers train for feedback during shows.`
+      // img: 'portfolio-chakra.jpg',
+      img: 'screen-capture---chakratuner.gif',
+      name: 'Chakra Tuner',
+      link: 'https://soundtools2.herokuapp.com',
+      github: 'https://github.com/spongah/soundtools2',
+      moreinfo: 'http://www.collective-evolution.com/2013/12/21/heres-why-you-should-convert-your-music-to-432hz/',
+      description: `Responsive audio tool designed to calculate custom tuning.
+      Many musicians prefer to tune their recordings to a 432hz A4
+      instead of the standard 440hz because they feel it holds a more mystical
+      connection to the universe, hence the name "Chakra Tuner". This was my
+      first Angular project, and was designed to be part of a bigger collection
+      of audio tools.`
     },
     {
       img: 'portfolio-mudcraft.jpg',
       name: 'Mudcraft',
       link: 'https://mudkraft.herokuapp.com',
       github: 'https://github.com/spongah/mudcraft',
-      description: `Experimental adopotion of a classic text-based MUD into the
-      web browser environment. I made this to try React, but mostly used
-      plain Javascript to interact with a Rails back end.`
+      description: `Experimenting with a web-based text adventure game, mixed
+      with a litle Minecraft. This game allows digging, and moving, through
+      randomly generated maps in 3 dimensions (N, S, E, W, U, D). I made this to
+      try React.js, but ended up mostly using plain Javascript and a Rails back
+      end to display the room data.`
     },
     {
       img: 'portfolio-newresume.jpg',
       name: 'MEAN Web Resume',
       link: '/',
       github: 'https://github.com/spongah/newresume',
-      description: `This app. Eric Eschelbach's web-based resume in MEAN-stack
-      form. Built from the ground up using Node.js and Express server for
-      back-end, and Angular 4 with TypeScript for the front end.`
+      description: `This app! My web-based resume in MEAN-stack form. I
+      pictured the design and drew some rough sketches, then built the CSS and
+      HTML before creating a simple Node app an Angular app using the CLI.
+      I use ng build to compile to the public folder that Node hosts from,
+      which is then pushed to GitHub then pulled from my web server.`
+    },
+    {
+      img: 'portfolio-honeypot.jpg',
+      name: 'Honeypot Glass Comp',
+      link: 'http://honeypotglasscomp.com',
+      github: '',
+      description: `Simple Bootstrap website I created for a client who needed
+      some info and online forms for his glass blowing competition.`
+    },
+    {
+      img: 'portfolio-rocksolidsound.jpg',
+      name: 'Rock Solid Sound',
+      link: 'https://www.rocksolidsound.net',
+      github: '',
+      description: `Template website that I created for my live sound business
+      while learning HTML and CSS. PHP was used to give functionality to the
+      contact form.`
+    },
+    {
+      img: 'portfolio-freqtrainer.jpg',
+      name: 'Frequency Trainer',
+      link: 'https://freqtrainer.herokuapp.com',
+      github: 'https://github.com/spongah/freqtrainer',
+      description: `Simple audio game that plays a tone then asks the user to
+      guess the frequency. Designed to help audio engineers train their ears!`
     },
   ];
 

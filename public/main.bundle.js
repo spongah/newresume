@@ -232,7 +232,7 @@ module.exports = "<h4 class=\"text-center\">Professional Employment History</h4>
 /***/ 166:
 /***/ (function(module, exports) {
 
-module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is Eric Eschelbach. Thank you for taking the time to visit my\n    web resume!\n    <br><br>\n    I have always been captivated by everything related to computers, and for\n    the last two years I have been teaching myself web app development. I\n    designed and built this site from scratch with a text editor and terminal\n    using TypeScript/Angular along with Node.js/Express. This site and a few\n    others are hosted on a Raspberry Pi web server in my home office.\n    <br><br>\n    My interests also include playing and recording music, designing and\n    building speakers, and caring for my growing collection of bonsai trees. I\n    am passionate about everything I do, and always put in the effort required\n    to get tasks done correctly.\n    <br><br>\n    Thanks again for considering my employment application, please\n    <a href=\"tel:801-313-0394\">contact</a> me if you have any questions!\n  </p>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img src=\"assets/prev-disabled.png\" class=\"bottomicon\">\n  <img routerLink=\"/qualifications\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
+module.exports = "<h4></h4>\n<div class=\"intro\">\n  <p>\n    Hello, my name is Eric Eschelbach. Thank you for taking the time to visit my\n    web resume!\n    <br><br>\n    I have always been captivated by everything related to computers, and for\n    the last two years I have been teaching myself web app development. I\n    designed and built this site from scratch with a text editor and terminal\n    using TypeScript / Angular along with Node.js / Express. This site and a few\n    others are hosted on a Raspberry Pi web server in my home office.\n    <br><br>\n    My interests also include playing and recording music, designing and\n    building speakers, and caring for my growing collection of bonsai trees. I\n    am passionate about everything I do, and always put in the effort required\n    to get tasks done correctly.\n    <br><br>\n    Thanks again for considering my employment application, please\n    <a href=\"tel:801-313-0394\">contact</a> me if you have any questions!\n  </p>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img src=\"assets/prev-disabled.png\" class=\"bottomicon\">\n  <img routerLink=\"/qualifications\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
 
 /***/ }),
 
@@ -246,14 +246,14 @@ module.exports = "<div class=\"modal fade pages-modal\" tabindex=\"-1\" role=\"d
 /***/ 168:
 /***/ (function(module, exports) {
 
-module.exports = "<p class=\"text-center\" style=\"font-style: italic; font-size: 0.9em;\">\n  Apps hosted by Heroku may delay a few seconds when first starting up\n</p>\n<br>\n<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\" *ngIf=\"site.link\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n          <a href=\"{{ site.github }}\">\n            <button class=\"btn btn-primary\">GitHub</button>\n          </a>\n          <a href=\"{{ site.link }}\">\n            <button class=\"btn btn-info\">Demo</button>\n          </a>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n<br> -->\n"
+module.exports = "<p class=\"text-center\" style=\"font-style: italic; font-size: 0.9em;\">\n  Apps hosted by Heroku may delay a few seconds when first starting up\n</p>\n<br>\n<div class=\"row\">\n  <div class=\"col-sm-6\" *ngFor=\"let site of portfolioSites\">\n    <a href=\"{{ site.link }}\" *ngIf=\"site.link\">\n      <div class=\"thumbnail\">\n        <img src=\"/assets/{{ site.img }}\" alt=\"{{ site.name }}\">\n        <div class=\"caption\">\n          <h3>{{ site.name }}</h3>\n          <p>{{ site.description }}</p>\n          <a href=\"{{ site.github }}\">\n            <button class=\"btn btn-primary\">GitHub</button>\n          </a>\n          <a href=\"{{ site.link }}\">\n            <button class=\"btn btn-info\">Demo</button>\n          </a>\n          <a href=\"{{ site.moreinfo }}\" *ngIf=\"site.moreinfo\">\n            <button class=\"btn btn-warning\">More Info</button>\n          </a>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/employment\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img src=\"assets/next-disabled.png\" class=\"bottomicon\">\n</div>\n<br> -->\n"
 
 /***/ }),
 
 /***/ 169:
 /***/ (function(module, exports) {
 
-module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<div class=\"qualifications\">\n  <ul>\n    <li>\n      Creative, highly motivated, self-taught Full-Stack Web Developer with a\n      uniquely business-minded work ethic and a natural passion for technology.\n    </li>\n    <li>\n      Well-rounded experience with multiple modern web development frameworks\n      and a variety of other technologies designed for scalable, rapid\n      prototyping.\n    </li>\n    <li>\n      Detail oriented, technically talented with experience developing\n      software to be robust, effective, and user friendly.\n    </li>\n    <li>\n      Extensive experience personally solving a wide variety of unfamiliar\n      problems quickly in a high-pressure environment, while learning new skills\n      and technology.\n    </li>\n    <li>\n      Punctual, reliable, and honest. Superb communication, planning, and team\n      building skills.\n    </li>\n  </ul>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/introduction\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/skills\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
+module.exports = "<h4 class=\"text-center\">Summary of Qualifications</h4>\n<br>\n<div class=\"qualifications\">\n  <ul>\n    <li>\n      Creative, highly motivated, self-taught Full Stack Web Developer with a\n      uniquely business minded work ethic and a natural passion for technology.\n    </li>\n    <li>\n      Well rounded experience with multiple modern web development frameworks\n      and various other technologies designed for scalable, rapid prototyping.\n    </li>\n    <li>\n      Detail oriented, technically talented with experience developing\n      software to be robust, effective, and user friendly.\n    </li>\n    <li>\n      Extensive experience personally solving a wide variety of unfamiliar\n      problems quickly in a high-pressure environment, while learning new skills\n      and technology.\n    </li>\n    <li>\n      Punctual, reliable, and honest. Superb communication, planning, and team\n      building skills.\n    </li>\n  </ul>\n</div>\n<!-- <div class=\"bottomnav\">\n  <img routerLink=\"/introduction\" src=\"assets/prev.png\" class=\"bottomicon\">\n  <img routerLink=\"/skills\" src=\"assets/next.png\" class=\"bottomicon\">\n</div> -->\n"
 
 /***/ }),
 
@@ -661,10 +661,10 @@ var PortfolioComponent = (function () {
             {
                 // img: 'portfolio-rta3.jpg',
                 img: 'screen-capture---rta.gif',
-                name: 'RTA3 - Real Time Analyzer',
+                name: 'Real Time Analyzer',
                 link: 'https://rta3.herokuapp.com',
                 github: 'https://github.com/spongah/rta3',
-                description: "Audio tool using FFT to analyze mic input and display\n      frequency information in real time. Audio engineers will use this to cut\n      frequencies which cause feedback in a particular venue. (Desktop Only)"
+                description: "Sleek, customizable RTA tool in a responsive browser based\n      app. Uses \"P5.sound\" JavaScript library to access mic input and perform\n      frequency analysis (via Fast Fourier transform). Perfect for ringing out\n      feedback in a PA system! (Does not currently work with mobile devices)"
             },
             {
                 // img: 'portfolio-markco.jpg',
@@ -672,15 +672,7 @@ var PortfolioComponent = (function () {
                 name: 'Markco Beta',
                 link: 'https://markco1.herokuapp.com',
                 github: 'https://github.com/spongah/markco1',
-                description: "GPS tracker for groups using Google maps and GPS API's.\n      Complete, functioning minimum viable product using Javascript and a Rails\n      back end. Needs some serious refactoring, but it is fully functional.\n      Give it a try!"
-            },
-            {
-                // img: 'portfolio-chakra.jpg',
-                img: 'screen-capture---chakratuner.gif',
-                name: 'Chakra Tuner',
-                link: 'https://soundtools2.herokuapp.com',
-                github: 'https://github.com/spongah/soundtools2',
-                description: "Audio tool designed for musicians who want to tune their\n      instruments to something other than 440-A (usually 432hz). This was my\n      first experience with Angular."
+                description: "Mobile-first web app that allows groups of people to track\n      each others location in real time. Uses HTML5 geolocation and Google Maps\n      API along with Ruby on Rails and JavaScript to create a simple, effective\n      user experience. I could code this so much better now, but it works!"
             },
             {
                 // img: 'portfolio-garden.jpg',
@@ -688,42 +680,51 @@ var PortfolioComponent = (function () {
                 name: 'Garden Automator',
                 link: 'http://www.ericeschelbach.com:8080/',
                 github: '',
-                description: "I build this app to track temperature and humidity data\n      while giving remote access to relays and any other physical hardware\n      via a Raspberry Pi server. Apache web server and Python back end code.\n      Data is currently stored in a CSV but I want to move to a MySQL database\n      eventually."
+                description: "Remote automation using 120v relays based on termperature\n      and humidity data. Graph of data is displayed, and a control panel allows\n      the administrator access to heating and cooling threshold settings. Fans\n      or heaters can turn on or off to control the climate of an indoor garden.\n      Apache web server and Python back end code."
             },
             {
-                img: 'portfolio-rocksolidsound.jpg',
-                name: 'Rock Solid Sound',
-                link: 'https://www.rocksolidsound.net',
-                github: '',
-                description: "Website I created by manipulating a template for my own\n      live-sound business."
-            },
-            {
-                img: 'portfolio-honeypot.jpg',
-                name: 'Honeypot Glass Competition',
-                link: 'http://honeypotglasscomp.com',
-                github: '',
-                description: "Website I created for a client who mostly needed an online\n      form for competition entry submissions and sponsorship applications."
-            },
-            {
-                img: 'portfolio-freqtrainer.jpg',
-                name: 'Frequency Trainer',
-                link: 'https://freqtrainer.herokuapp.com',
-                github: 'https://github.com/spongah/freqtrainer',
-                description: "Audio tool that plays a tone and asks the user to guess the\n      frequency. Helps audio engineers train for feedback during shows."
+                // img: 'portfolio-chakra.jpg',
+                img: 'screen-capture---chakratuner.gif',
+                name: 'Chakra Tuner',
+                link: 'https://soundtools2.herokuapp.com',
+                github: 'https://github.com/spongah/soundtools2',
+                moreinfo: 'http://www.collective-evolution.com/2013/12/21/heres-why-you-should-convert-your-music-to-432hz/',
+                description: "Responsive audio tool designed to calculate custom tuning.\n      Many musicians prefer to tune their recordings to a 432hz A4\n      instead of the standard 440hz because they feel it holds a more mystical\n      connection to the universe, hence the name \"Chakra Tuner\". This was my\n      first Angular project, and was designed to be part of a bigger collection\n      of audio tools."
             },
             {
                 img: 'portfolio-mudcraft.jpg',
                 name: 'Mudcraft',
                 link: 'https://mudkraft.herokuapp.com',
                 github: 'https://github.com/spongah/mudcraft',
-                description: "Experimental adopotion of a classic text-based MUD into the\n      web browser environment. I made this to try React, but mostly used\n      plain Javascript to interact with a Rails back end."
+                description: "Experimenting with a web-based text adventure game, mixed\n      with a litle Minecraft. This game allows digging, and moving, through\n      randomly generated maps in 3 dimensions (N, S, E, W, U, D). I made this to\n      try React.js, but ended up mostly using plain Javascript and a Rails back\n      end to display the room data."
             },
             {
                 img: 'portfolio-newresume.jpg',
                 name: 'MEAN Web Resume',
                 link: '/',
                 github: 'https://github.com/spongah/newresume',
-                description: "This app. Eric Eschelbach's web-based resume in MEAN-stack\n      form. Built from the ground up using Node.js and Express server for\n      back-end, and Angular 4 with TypeScript for the front end."
+                description: "This app! My web-based resume in MEAN-stack form. I\n      pictured the design and drew some rough sketches, then built the CSS and\n      HTML before creating a simple Node app an Angular app using the CLI.\n      I use ng build to compile to the public folder that Node hosts from,\n      which is then pushed to GitHub then pulled from my web server."
+            },
+            {
+                img: 'portfolio-honeypot.jpg',
+                name: 'Honeypot Glass Comp',
+                link: 'http://honeypotglasscomp.com',
+                github: '',
+                description: "Simple Bootstrap website I created for a client who needed\n      some info and online forms for his glass blowing competition."
+            },
+            {
+                img: 'portfolio-rocksolidsound.jpg',
+                name: 'Rock Solid Sound',
+                link: 'https://www.rocksolidsound.net',
+                github: '',
+                description: "Template website that I created for my live sound business\n      while learning HTML and CSS. PHP was used to give functionality to the\n      contact form."
+            },
+            {
+                img: 'portfolio-freqtrainer.jpg',
+                name: 'Frequency Trainer',
+                link: 'https://freqtrainer.herokuapp.com',
+                github: 'https://github.com/spongah/freqtrainer',
+                description: "Simple audio game that plays a tone then asks the user to\n      guess the frequency. Designed to help audio engineers train their ears!"
             },
         ];
     }
