@@ -672,7 +672,7 @@ var PortfolioComponent = (function () {
                 name: 'Markco Beta',
                 link: 'https://markco1.herokuapp.com',
                 github: 'https://github.com/spongah/markco1',
-                description: "Mobile-first web app that allows groups of people to track\n      each others location in real time. Uses HTML5 geolocation and Google Maps\n      API along with Ruby on Rails and JavaScript to create a simple, effective\n      user experience. I could code this so much better now, but it works!"
+                description: "Mobile-first web app that allows groups of people to track\n      each others location in real time. Uses HTML5 geolocation and Google Maps\n      API along with Ruby on Rails and JavaScript to create a simple, effective\n      user experience. This was my first attempt at a serious web app."
             },
             {
                 // img: 'portfolio-garden.jpg',
